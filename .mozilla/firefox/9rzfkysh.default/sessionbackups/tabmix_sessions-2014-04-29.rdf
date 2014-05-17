@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/LizC7VZx"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window"
+                   NC:nameExt=", (1 T) (2014/04/28 02:02:40)" />
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-2"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-5"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-7"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-12"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-13"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-14"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/lastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed1/window"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/closedtabs">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-5"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://hatenablog.com/images/favicon.ico"
+                   NC:scroll="0,3060,1"
+                   NC:history="][|-|awesome%20theme%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=awesome+theme&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=fflb&amp;gfe_rd=cr&amp;ei=U9hbU_imO8uT8Qft0oGwBQ%5D%5B0,90780%5D%5Bawesome%20theme%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=awesome+theme&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=fflb&amp;gfe_rd=cr&amp;ei=U9hbU_imO8uT8Qft0oGwBQ#channel=fflb&amp;q=awesome+theme&amp;rls=org.mozilla:en-US:official&amp;start=10%5D%5B0,0%5D%5Bawesome%20%E3%83%86%E3%83%BC%E3%83%9E%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=awesome+theme&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=fflb&amp;gfe_rd=cr&amp;ei=U9hbU_imO8uT8Qft0oGwBQ#channel=fflb&amp;q=awesome+%25E3%2583%2586%25E3%2583%25BC%25E3%2583%259E&amp;rls=org.mozilla:en-US:official%5D%5B0,0%5D%5B%E8%BB%BD%E5%BF%AB%E3%81%AAawesome%20-%20%E6%84%9B%E3%81%A8%E5%8B%87%E6%B0%97%E3%81%A8%E7%BC%B6%E3%83%93%E3%83%BC%E3%83%AB%5D%5Bhttp://zentoo.hatenablog.com/entry/20100223/1266951112%5D%5B0,3060">
+    <NC:tabPos NC:parseType="Integer">1</NC:tabPos>
+    <NC:index NC:parseType="Integer">3</NC:index>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/nH5v8n0v"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window"
+                   NC:nameExt=", (1 T) (2014/04/28 02:53:40)" />
+  <RDF:Seq RDF:about="rdf://tabmix/closedSession/">
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/thisSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/lastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/previoustolastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/crashedsession"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/nH5v8n0v/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/nH5v8n0v/tabs/panel-3-1"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-2"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:scroll="0,612,1"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0%5D%5Bxmodmap%20settei%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmodmap+settei&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=DNRbU-fDHMmT8Qfd34CQCQ%5D%5B0,0%5D%5Bxmodmap%20arch%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmodmap+settei&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=DNRbU-fDHMmT8Qfd34CQCQ#channel=np&amp;q=xmodmap+arch&amp;rls=org.mozilla:en-US:official%5D%5B0,3360%5D%5Bawasome%20xmodmap%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmodmap+settei&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=DNRbU-fDHMmT8Qfd34CQCQ#channel=np&amp;q=awasome+xmodmap&amp;rls=org.mozilla:en-US:official%5D%5B0,612">
+    <NC:index NC:parseType="Integer">3</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window/LizC7VZx/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/LizC7VZx/tabs/panel-3-1"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B"
+                   NC:status="backup"
+                   NC:tabview-visibility="false"
+                   NC:name="%E3%83%A1%E3%82%AB%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%A8%E3%81%8B%E5%A5%BD%E3%81%8D%E3%81%A0:%20awesome%E3%81%AE%E5%A3%81%E7%B4%99%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B"
+                   NC:nameExt=", (6 T) (2014/04/27 10:24:01)"
+                   NC:timestamp="1398561841211">
+    <NC:tabs RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">4</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/nH5v8n0v/tabs/panel-3-1"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:scroll="0,991,1"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0%5D%5B%E7%AB%B6%E6%8A%80%20%E5%92%8C%E8%8B%B1%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=%25E7%25AB%25B6%25E6%258A%2580+%25E5%2592%258C%25E8%258B%25B1&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=DbpcU_WCPcWT8QfCwoCwCQ%5D%5B0,3360%5D%5B%E7%AB%B6%E6%8A%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%20%E5%85%A5%E9%96%80%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=%25E7%25AB%25B6%25E6%258A%2580+%25E5%2592%258C%25E8%258B%25B1&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=DbpcU_WCPcWT8QfCwoCwCQ#channel=np&amp;q=%25E7%25AB%25B6%25E6%258A%2580%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0+%25E5%2585%25A5%25E9%2596%2580&amp;rls=org.mozilla:en-US:official%5D%5B0,991">
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+    <NC:index NC:parseType="Integer">2</NC:index>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-12"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,714,1"
+                   NC:history="][|-|awesome%20%E5%A3%81%E7%B4%99%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=awesome+%25E5%25A3%2581%25E7%25B4%2599&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=fflb&amp;gfe_rd=cr&amp;ei=j9tbU5rSCsST8QfOw4DABA%5D%5B0,714">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">3</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-14"
+                   NC:scroll="0,0,1"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://doctorpeppercheerio.blog.fc2.com/favicon.ico"
+                   NC:history="][|-|%E3%81%A9%E3%81%8F%E3%81%9F%E3%83%BC%E3%81%BA%E3%81%A3%E3%81%B1%E3%83%BC%E3%81%A1%E3%81%87%E3%82%8A%E3%81%8A%20%E6%98%A5%E3%81%AA%E3%81%AE%E3%81%AB%E3%80%81awesome%E3%81%A7%E3%81%8A%E3%83%BC%E5%AF%92%E3%81%A3%EF%BC%81%5D%5Bhttp://doctorpeppercheerio.blog.fc2.com/blog-entry-92.html%5D%5B0,0">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">5</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/nH5v8n0v"
+                   NC:status="backup"
+                   NC:name="%E7%AB%B6%E6%8A%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%20%E5%85%A5%E9%96%80%20-%20Google%20%E6%A4%9C%E7%B4%A2"
+                   NC:nameExt=", (1 T) (2014/04/28 02:53:40)"
+                   NC:timestamp="1398621220670">
+    <NC:tabs RDF:resource="rdf://tabmix/closed0/window/nH5v8n0v/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed0/window/nH5v8n0v/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">0</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/LizC7VZx"
+                   NC:status="backup"
+                   NC:name="awesome%E3%81%AB%E3%83%8F%E3%83%9E%E3%82%8B%20-%20%E5%8D%A0%E3%81%84%E7%8C%AB%20%E3%83%9A%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%AB%E2%98%85%E3%82%AD%E3%83%A3%E3%83%83%E3%83%88%20-%20Yahoo!%E3%83%96%E3%83%AD%E3%82%B0"
+                   NC:nameExt=", (1 T) (2014/04/28 02:02:40)"
+                   NC:timestamp="1398618160501">
+    <NC:tabs RDF:resource="rdf://tabmix/closed1/window/LizC7VZx/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed1/window/LizC7VZx/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">0</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-13"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://samemiso.blogspot.jp/favicon.ico"
+                   NC:history="][|-|%E3%83%A1%E3%82%AB%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%A8%E3%81%8B%E5%A5%BD%E3%81%8D%E3%81%A0:%20awesome%E3%81%AE%E5%A3%81%E7%B4%99%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%5D%5Bhttp://samemiso.blogspot.jp/2009/03/awesome.html%5D%5B112,152"
+                   NC:scroll="112,152,1">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">4</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/LizC7VZx/tabs/panel-3-1"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://blogs.yahoo.co.jp/favicon.ico"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0%5D%5Bawesome%20xmodmap%20%E8%B5%B7%E5%8B%95%E6%99%82%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=awesome+xmodmap+%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=NbhcU8TxBcqT8QfD64G4BQ%5D%5B0,0%5D%5Bawesome%E3%81%AB%E3%83%8F%E3%83%9E%E3%82%8B%20-%20%E5%8D%A0%E3%81%84%E7%8C%AB%20%E3%83%9A%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%AB%E2%98%85%E3%82%AD%E3%83%A3%E3%83%83%E3%83%88%20-%20Yahoo!%E3%83%96%E3%83%AD%E3%82%B0%5D%5Bhttp://blogs.yahoo.co.jp/pentacle_cat/66574351.html%5D%5B346,1661"
+                   NC:scroll="346,1661,1">
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+    <NC:index NC:parseType="Integer">2</NC:index>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/thisSession"
+                   NC:status="stopped">
+    <NC:session RDF:resource="rdf://tabmix/closed0/window"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/windows">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/PRZHnx3B"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window"
+                   NC:nameExt=", (6 T) (2014/04/27 10:24:01)" />
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/crashedsession">
+    <NC:session RDF:resource="rdf://tabmix/closed3/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-4">
+    <NC:tabPos NC:parseType="Integer">1</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/PRZHnx3B/tabs/panel-3-7"
+                   NC:scroll="0,0,1"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://samemiso.blogspot.jp/favicon.ico"
+                   NC:history="][|-|awesome%20kidouji%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=awesome+kidouji&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=fflb&amp;gfe_rd=cr&amp;ei=aNhbU4jBDMuT8Qft0oGwBQ%5D%5B0,0%5D%5B%E3%83%A1%E3%82%AB%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%A8%E3%81%8B%E5%A5%BD%E3%81%8D%E3%81%A0:%20awesome%E8%B5%B7%E5%8B%95%E6%99%82%E3%81%ABfirefox%E3%81%A8%E3%81%8B%E3%82%92%E8%B5%B7%E5%8B%95%E3%81%95%E3%81%9B%E3%82%8B%EF%BC%81%5D%5Bhttp://samemiso.blogspot.jp/2009/06/awesomefirefox.html%5D%5B0,0">
+    <NC:index NC:parseType="Integer">1</NC:index>
+    <NC:tabPos NC:parseType="Integer">2</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/previoustolastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed2/window"/>
+  </RDF:Description>
+</RDF:RDF>

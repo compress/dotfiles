@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/thisSession"
+                   NC:status="stopped">
+    <NC:session RDF:resource="rdf://tabmix/closed2/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-3"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,0,1"
+                   NC:image="http://blog.drmn.jp/favicon.ico"
+                   NC:history="][|-|dr's%20tech%20memo:%20Haskell%20%E3%81%AB%E8%88%88%E5%91%B3%E3%81%8C%E3%81%82%E3%82%8B%E4%BA%BA%E5%90%91%E3%81%91%20xmonad%20%E8%A8%AD%E5%AE%9A%E3%82%AC%E3%82%A4%E3%83%89%5D%5Bhttp://blog.drmn.jp/2013/04/haskell-xmonad.html%5D%5B0,0">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">1</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-5"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://futurismo.biz/favicon.ico"
+                   NC:history="][|-|%E3%82%BF%E3%82%A4%E3%83%AB%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%81%A8%E3%81%84%E3%81%86%E6%96%B0%E3%81%9F%E3%81%AA%E4%B8%96%E7%95%8C%E8%A6%B3%E3%81%AB%E8%A1%9D%E6%92%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%9F%EF%BC%81Xmonad%E3%82%92%E3%81%A4%E3%81%8B%E3%81%A3%E3%81%A6%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AFCUI%E7%94%9F%E6%B4%BB%20%7C%20Futurismo%5D%5Bhttp://futurismo.biz/archives/2165%5D%5B0,2350"
+                   NC:scroll="0,2350,1">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">4</NC:tabPos>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-4"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-5"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closedSession/">
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/thisSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/lastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/previoustolastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/crashedsession"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/RaczuX1g"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window"
+                   NC:nameExt=", (4 T) (2014/05/10 03:58:33)" />
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-1"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:scroll="0,579,1"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0%5D%5Bxmonad%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmonad&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=7p5sU9u6FamT8Qf6z4H4AQ%5D%5B0,579">
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+    <NC:index NC:parseType="Integer">1</NC:index>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-1"
+                   NC:scroll="0,0,1" />
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-3"
+                   NC:image="http://blog.drmn.jp/favicon.ico"
+                   NC:properties="0011111 hidden=false"
+                   NC:history="][|-|dr's%20tech%20memo:%20Haskell%20%E3%81%AB%E8%88%88%E5%91%B3%E3%81%8C%E3%81%82%E3%82%8B%E4%BA%BA%E5%90%91%E3%81%91%20xmonad%20%E8%A8%AD%E5%AE%9A%E3%82%AC%E3%82%A4%E3%83%89%5D%5Bhttp://blog.drmn.jp/2013/04/haskell-xmonad.html%5D%5B0,0"
+                   NC:scroll="0,0,1">
+    <NC:tabPos NC:parseType="Integer">1</NC:tabPos>
+    <NC:index NC:parseType="Integer">0</NC:index>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window/RaczuX1g/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-1"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-3"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-5"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-6"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-5"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://cdn.image.st-hatena.com/image/favicon/eae65e5ee34d788c65641f280e0f3f64e801edc5/version=1/http%3A%2F%2Fcdn.mogile.archive.st-hatena.com%2Fv1%2Fimage%2Fsucrose%2F297788691649484946.png"
+                   NC:history="][|-|Chrome%E3%82%92Vim%E3%83%A9%E3%82%A4%E3%82%AF%E3%81%AB%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8BChrome%E6%8B%A1%E5%BC%B5%E3%80%8CVichrome%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%81%9F%20-%20%E5%94%AF%E7%89%A9%E6%98%AF%E7%9C%9F%20@Scaled_Wurm%5D%5Bhttp://sucrose.hatenablog.com/entry/20120311/p1%5D%5B0,256"
+                   NC:scroll="0,256,1">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">1</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/lastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed0/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP"
+                   NC:status="backup"
+                   NC:tabview-visibility="false"
+                   NC:name="%E3%82%BF%E3%82%A4%E3%83%AB%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%81%A8%E3%81%84%E3%81%86%E6%96%B0%E3%81%9F%E3%81%AA%E4%B8%96%E7%95%8C%E8%A6%B3%E3%81%AB%E8%A1%9D%E6%92%83%E3%82%92%E5%8F%97%E3%81%91%E3%81%9F%EF%BC%81Xmonad%E3%82%92%E3%81%A4%E3%81%8B%E3%81%A3%E3%81%A6%E3%83%AF%E3%82%AF%E3%83%AF%E3%82%AFCUI%E7%94%9F%E6%B4%BB%20%7C%20Futurismo"
+                   NC:nameExt=", (6 T) (2014/05/10 05:29:28)"
+                   NC:timestamp="1399667368492">
+    <NC:tabs RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">4</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4"
+                   NC:status="backup"
+                   NC:name="Chrome%E3%82%92Vim%E3%83%A9%E3%82%A4%E3%82%AF%E3%81%AB%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8BChrome%E6%8B%A1%E5%BC%B5%E3%80%8CVichrome%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%81%9F%20-%20%E5%94%AF%E7%89%A9%E6%98%AF%E7%9C%9F%20@Scaled_Wurm"
+                   NC:nameExt=", (2 T) (2014/05/17 06:48:35)"
+                   NC:timestamp="1400276915058">
+    <NC:tabs RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">1</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/7sQMHReP/closedtabs">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window"
+                   NC:nameExt=", (6 T) (2014/05/10 05:29:28)" />
+  <RDF:Seq RDF:about="rdf://tabmix/windows">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-2">
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-6"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,0,1"
+                   NC:image="http://dat.2aa.jp/favicon.ico"
+                   NC:history="][|-|2AA%EF%BC%9A%E3%82%BF%E3%82%A4%E3%83%AB%E5%9E%8BWM%20(Ion,%20wmii,%20awesome,%20xmonad,%20etc.)%5D%5Bhttp://dat.2aa.jp/linux/1205930755.html%5D%5B0,0">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">5</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-4"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,787,1"
+                   NC:history="][|-|xmonad%20%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmonad+%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;gfe_rd=cr&amp;ei=U6RsU5CDLqyT8QejiYC4Ag%5D%5B0,0%5D%5Bxmonad%20%E7%9C%9F%E3%81%A3%E9%BB%92%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmonad+%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;gfe_rd=cr&amp;ei=U6RsU5CDLqyT8QejiYC4Ag#q=xmonad+%25E7%259C%259F%25E3%2581%25A3%25E9%25BB%2592&amp;rls=org.mozilla:en-US:official%5D%5B0,787">
+    <NC:tabPos NC:parseType="Integer">3</NC:tabPos>
+    <NC:index NC:parseType="Integer">1</NC:index>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-5"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,585,1"
+                   NC:history="][|-|xmonad%20%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmonad+%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;gfe_rd=cr&amp;ei=U6RsU5CDLqyT8QejiYC4Ag%5D%5B0,585">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">3</NC:tabPos>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window/RaczuX1g/closedtabs">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/TexjQXT4/closedtabs">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-1"
+                   NC:image="http://wise9.jp/favicon.ico"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,1492,1"
+                   NC:history="][|-|wise9%20%E2%80%BA%20%E9%96%A2%E6%95%B0%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%80%8CXMonad%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%9D%E3%81%86%5D%5Bhttp://wise9.jp/archives/3327%5D%5B0,1492">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">2</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/previoustolastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed1/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/RaczuX1g/tabs/panel-3-6"
+                   NC:scroll="0,0,1"
+                   NC:image=""
+                   NC:properties="0011111 hidden=false"
+                   NC:history="][|-|wise9%20%E2%80%BA%20%E9%96%A2%E6%95%B0%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%80%8CXMonad%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%9D%E3%81%86%5D%5Bhttp://wise9.jp/archives/3327%5D%5B0,0">
+    <NC:tabPos NC:parseType="Integer">2</NC:tabPos>
+    <NC:index NC:parseType="Integer">0</NC:index>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/crashedsession">
+    <NC:session RDF:resource="rdf://tabmix/closed3/window"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-1"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-4"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-2"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-3"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-5"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-6"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/RaczuX1g"
+                   NC:status="backup"
+                   NC:name="wise9%20%E2%80%BA%20%E9%96%A2%E6%95%B0%E5%9E%8B%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%82%A6%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%80%8CXMonad%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%9D%E3%81%86"
+                   NC:nameExt=", (4 T) (2014/05/10 03:58:33)"
+                   NC:timestamp="1399661913478">
+    <NC:tabs RDF:resource="rdf://tabmix/closed1/window/RaczuX1g/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed1/window/RaczuX1g/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">2</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/TexjQXT4"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window"
+                   NC:timestamp="0"
+                   NC:nameExt=", (2 T) (2014/05/17 06:48:35)" />
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-4"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://d.hatena.ne.jp/images/de_favicon.ico"
+                   NC:scroll="0,1622,1"
+                   NC:history="][|-|Vimium%E3%81%A8Vrome%20(Chrome%E3%81%AEvim%E6%8B%A1%E5%BC%B5)%20%E3%81%AE%E6%AF%94%E8%BC%83%20-%20%E6%9F%90%E7%A4%BE%E6%96%87%E7%B3%BB%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E6%97%A5%E8%A8%98%5D%5Bhttp://d.hatena.ne.jp/hkweb/20110908/1315497209%5D%5B0,1622">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/7sQMHReP/tabs/panel-3-2"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="https://www.google.co.jp/favicon.ico"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0%5D%5Bxmonad%20-%20Google%20%E6%A4%9C%E7%B4%A2%5D%5Bhttps://www.google.co.jp/search?q=xmonad&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;channel=np&amp;source=hp&amp;gfe_rd=cr&amp;ei=7p5sU9u6FamT8Qf6z4H4AQ%5D%5B0,579"
+                   NC:scroll="0,579,1">
+    <NC:index NC:parseType="Integer">1</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+</RDF:RDF>

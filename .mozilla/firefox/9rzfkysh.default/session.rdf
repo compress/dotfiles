@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf://tabmix/closedSession/">
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/thisSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/lastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/previoustolastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/crashedsession"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/thisSession"
+                   NC:status="stopped">
+    <NC:session RDF:resource="rdf://tabmix/closed0/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/lastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed1/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-4"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://d.hatena.ne.jp/images/de_favicon.ico"
+                   NC:scroll="0,1622,1"
+                   NC:history="][|-|Vimium%E3%81%A8Vrome%20(Chrome%E3%81%AEvim%E6%8B%A1%E5%BC%B5)%20%E3%81%AE%E6%AF%94%E8%BC%83%20-%20%E6%9F%90%E7%A4%BE%E6%96%87%E7%B3%BB%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E6%97%A5%E8%A8%98%5D%5Bhttp://d.hatena.ne.jp/hkweb/20110908/1315497209%5D%5B0,1622">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/dZYdHFkm/tabs/panel-3-1"
+                   NC:image="chrome://branding/content/icon32.png"
+                   NC:properties="0011111 hidden=false"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0"
+                   NC:scroll="0,0,1">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/8fesOmPP/tabs/panel-3-1"
+                   NC:image="chrome://branding/content/icon32.png"
+                   NC:properties="0011111 hidden=false"
+                   NC:history="][|-|Mozilla%20Firefox%20Start%20Page%5D%5Babout:home%5D%5B0,0"
+                   NC:scroll="0,0,1">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window/dZYdHFkm/closedtabs">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/crashedsession">
+    <NC:session RDF:resource="rdf://tabmix/closed3/window"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window/dZYdHFkm/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/dZYdHFkm/tabs/panel-3-1"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-1"
+                   NC:scroll="0,0,1" />
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/8fesOmPP"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window"
+                   NC:nameExt=", (1 T) (2014/05/17 10:14:35)" />
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4"
+                   NC:status="backup"
+                   NC:name="Chrome%E3%82%92Vim%E3%83%A9%E3%82%A4%E3%82%AF%E3%81%AB%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8BChrome%E6%8B%A1%E5%BC%B5%E3%80%8CVichrome%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%81%9F%20-%20%E5%94%AF%E7%89%A9%E6%98%AF%E7%9C%9F%20@Scaled_Wurm"
+                   NC:nameExt=", (2 T) (2014/05/17 06:48:35)"
+                   NC:timestamp="1400276915058">
+    <NC:tabs RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">1</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-5"
+                   NC:properties="0011111 hidden=false"
+                   NC:image="http://cdn.image.st-hatena.com/image/favicon/eae65e5ee34d788c65641f280e0f3f64e801edc5/version=1/http%3A%2F%2Fcdn.mogile.archive.st-hatena.com%2Fv1%2Fimage%2Fsucrose%2F297788691649484946.png"
+                   NC:history="][|-|Chrome%E3%82%92Vim%E3%83%A9%E3%82%A4%E3%82%AF%E3%81%AB%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8BChrome%E6%8B%A1%E5%BC%B5%E3%80%8CVichrome%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%81%9F%20-%20%E5%94%AF%E7%89%A9%E6%98%AF%E7%9C%9F%20@Scaled_Wurm%5D%5Bhttp://sucrose.hatenablog.com/entry/20120311/p1%5D%5B0,256"
+                   NC:scroll="0,256,1">
+    <NC:index NC:parseType="Integer">0</NC:index>
+    <NC:tabPos NC:parseType="Integer">1</NC:tabPos>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window/dZYdHFkm"
+                   NC:status="backup"
+                   NC:name="Mozilla%20Firefox%20Start%20Page"
+                   NC:nameExt=", (1 T) (2014/05/17 10:12:23)"
+                   NC:timestamp="1400289143608">
+    <NC:tabs RDF:resource="rdf://tabmix/closed1/window/dZYdHFkm/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed1/window/dZYdHFkm/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">0</NC:selectedIndex>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-4"/>
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-5"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed1/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed1/window/dZYdHFkm"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed1/window"
+                   NC:nameExt=", (1 T) (2014/05/17 10:12:23)" />
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/TexjQXT4/tabs/panel-3-2">
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/TexjQXT4/closedtabs">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/windows">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/TexjQXT4"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window"
+                   NC:timestamp="0"
+                   NC:nameExt=", (2 T) (2014/05/17 06:48:35)" />
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/8fesOmPP/closedtabs">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/previoustolastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed2/window"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/8fesOmPP/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/8fesOmPP/tabs/panel-3-1"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window/8fesOmPP"
+                   NC:status="backup"
+                   NC:name="Mozilla%20Firefox%20Start%20Page"
+                   NC:nameExt=", (1 T) (2014/05/17 10:14:35)"
+                   NC:timestamp="1400289275050">
+    <NC:tabs RDF:resource="rdf://tabmix/closed0/window/8fesOmPP/tabs"/>
+    <NC:closedtabs RDF:resource="rdf://tabmix/closed0/window/8fesOmPP/closedtabs"/>
+    <NC:selectedIndex NC:parseType="Integer">0</NC:selectedIndex>
+  </RDF:Description>
+</RDF:RDF>
