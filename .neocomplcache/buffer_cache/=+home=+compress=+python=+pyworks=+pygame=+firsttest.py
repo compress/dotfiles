@@ -1,0 +1,1 @@
+['python2', 'coding', 'import', 'pygame', 'from', 'locals', 'init', 'screen', 'display', 'set_mode', 'set_caption', 'Hello', 'World', 'font', 'Font', 'None', 'text', 'render', 'False', 'while', 'blit', 'flip', 'event', 'type', 'QUIT', 'exit', 'KEYDOWN', 'K_ESCAPE']

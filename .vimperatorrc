@@ -1,0 +1,14 @@
+" read .vimperatorrc
+map S :source ~/.vimperatorrc
+
+set ignorecase
+
+inoremap <c-j> <Esc>
+
+noremap ; :
+noremap : ;
+
+noremap J 3j
+noremap K 3k
+
+noremap v cvy<Esc><Esc>

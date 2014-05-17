@@ -1,0 +1,1 @@
+['rename', 'files', 'subdirectory', 'find', 'type', 'name', 'print0', 'while', 'read', 'file', 'done', 'same', 'directory', 'handling', 'strings', 'with', 'using', '変数', 'で変数の文字列の長さ', 'パターン', '変数について', '最初の部分とパターンがマッチしたら', '最も短く一致する部分を取り除いた残りの部分を返す', '最も長く一致する部分を取り除いた残りの部分を返す', '最後の部分とパターンがマッチしたら', 'hoge', 'echo', '一番長い', '一番短い', '拡張子を変える場合は', 'FILE', 'test']

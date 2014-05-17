@@ -1,0 +1,1 @@
+['pkgname', 'ttf-ricty', 'pkgver', 'pkgrel', 'pkgdesc', 'custom', 'fonts', 'arch', 'depends', 'fontconfig', 'xorg-font-utils', 'source', 'http', 'someurl.org', 'pkgname.tar.bz2', 'install', 'pkgname.install', 'package', 'pkgdir', 'share', '-dpr', '--no-preserve', 'ownership', 'srcdir', '.ttf']
