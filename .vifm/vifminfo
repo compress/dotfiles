@@ -1,0 +1,252 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'H
+	/home/compress/
+	../
+'b
+	/home/compress/bin/
+	../
+'h
+	/home/compress/
+	../
+'z
+	/home/compress/.vifm
+	../
+
+# TUI:
+al
+q0
+v1
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/compress/manga
+	kaibeast2014-2/
+4
+d/home/compress
+	.vifm/
+4
+d/home/compress/.vifm
+	colors/
+2
+d/home/compress/.vifm/colors
+	Default
+1
+d/home/compress/.vifm
+	colors/
+2
+d/home/compress
+	.vifm/
+4
+d/home/compress/.vifm
+	colors/
+2
+d/home/compress/.vifm/colors
+	Default
+1
+d/home/compress/.vifm
+	vifm-help.txt
+3
+d/home/compress
+	.vifm/
+4
+d/home
+	compress/
+1
+d/home/compress
+	.xmonad/
+14
+d/home/compress/.xmonad
+	../
+0
+d/home/compress
+	.vifm/
+7
+d/home/compress/.vifm
+	vifm-help.txt
+3
+d/home/compress
+	.vifm/
+7
+d/home/compress/.vifm
+	vifm-help.txt
+3
+d/home/compress
+	.vifm/
+7
+d/home/compress/.vifm
+	vifmrc
+5
+d/home/compress
+	manga/
+27
+d/home/compress/manga
+	kaibeast2014-3/
+5
+d/home/compress/manga/kaibeast2014-3
+	P015.jpg
+16
+d/home/compress/manga
+	(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ 01-07/
+1
+d/home/compress/manga/(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ 01-07
+	(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ ç¬¬05å·».zip
+6
+d/home/compress/manga
+	akunohana10/
+3
+d/home/compress/manga/akunohana10
+	(êÛö-âRâ~âbâN) [ëƒî®ÅCæó] £ªé¦ëÏ æµ10è¬/
+1
+d/home/compress/manga/akunohana10/(êÛö-âRâ~âbâN) [ëƒî®ÅCæó] £ªé¦ëÏ æµ10è¬
+	../
+0
+d/home/compress/manga/akunohana10
+	(êÛö-âRâ~âbâN) [ëƒî®ÅCæó] £ªé¦ëÏ æµ10è¬/
+1
+d/home/compress/manga
+	../
+0
+d/home/compress
+	manga/
+27
+d/home
+	compress/
+1
+d/home/compress
+	manga/
+27
+d/home/compress/manga
+	(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ 01-07/
+1
+d/home/compress/manga/(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ 01-07
+	akunohana0/
+1
+d/home/compress/manga/(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ 01-07/akunohana0
+	../
+0
+d/home/compress/manga/(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ 01-07
+	(ä¸€èˆ¬ã‚³ãƒŸãƒƒã‚¯) [æŠ¼è¦‹ä¿®é€ ] æƒ¡ã®è¯ ç¬¬01å·».zip
+1
+d/home/compress/manga
+	akunohana10/
+4
+d/home/compress/manga/akunohana10
+	(êÛö-âRâ~âbâN) [ëƒî®ÅCæó] £ªé¦ëÏ æµ10è¬/
+1
+d/home/compress/manga
+	jojo001-107/
+11
+d/home/compress
+	manga/
+27
+d/home
+	compress/
+1
+d/home/compress
+	.uim.d/
+4
+d/home/compress/.uim.d
+	customs/
+1
+d/home/compress/.uim.d/customs
+	custom-mozc-keys.scm
+24
+d/home/compress/.uim.d
+	customs/
+1
+d/home/compress
+	.vimperator/
+7
+d/home/compress/.vimperator
+	info/
+1
+d/home/compress/.vimperator/info
+	../
+0
+d/home/compress/.vimperator
+	info/
+1
+d/home/compress
+	.wicd/
+9
+d/home/compress/.wicd
+	WHEREAREMYFILES
+1
+d/home/compress
+	.kde4/
+8
+d
+
+# Right window history (oldest to newest):
+D/home/compress/manga
+	../
+0
+D/home/compress
+	.vim/
+7
+D/home/compress/.vim
+	colors/
+4
+D/home/compress/.vim/colors
+	../
+0
+D/home/compress/.vim
+	bundle/
+3
+D/home/compress/.vim/bundle
+	closetag.vim/
+6
+D/home/compress/.vim
+	colors/
+4
+D/home/compress/.vim/colors
+	hybrid.vim
+2
+D
+
+# Command line history (oldest to newest):
+:colorscheme Default
+:colorscheme solarized.vim
+:colorscheme hybrid.vim
+:pwd
+:!!gvim zipinfolder.sh
+:!!chmod u+x zipinfolder.sh
+:!!./zipinfolder.sh
+:h
+:vs
+:only
+:q
+
+# Search history (oldest to newest):
+/.vim
+/manga
+/gvim zipinfolder.sh
+/mo
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t000_solarized.vim
+	/home/compress/.vifm/colors/solarized.vim
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

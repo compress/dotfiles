@@ -31,7 +31,7 @@ main = do
 --      , ((modm, xK_f), sendMessage (Toggle FULL)) --full screen
         ]
 
-myTerminal    = "xterm"
+myTerminal    = "xfce4-terminal"
 -- xmodmapで設定しているからmod4Maskでよい
 myModMask     = mod4Mask -- Win key or Super_L
 myBorderWidth = 3
