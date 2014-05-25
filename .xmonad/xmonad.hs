@@ -10,16 +10,20 @@ import XMonad.Actions.WindowGo
 import XMonad.Util.EZConfig
 
 main = do
-    myStatusBar <- spawnPipe "xmobar"
+    xmproc <- spawnPipe "xmobar"
     spawn "xmodmap $HOME/.Xmodmap"
-    spawn "feh --bg-scale ~/wallpaper/Abbey.png"
+    spawn "feh --bg-scale ~/wallpaper/colorful.jpg"
     spawn "xcompmgr &"
     xmonad $ defaultConfig
         {
           modMask         = myModMask
         , layoutHook      = myLayoutHook
         , manageHook      = myManageHook
-        , logHook         = myLogHook myStatusBar
+--      , logHook         = myLogHook myStatusBar
+        , logHook         = dynamicLogWithPP $ xmobarPP
+                                { ppOutput = hPutStrLn xmproc
+                                , ppTitle = xmobarColor "green" "" . shorten 50
+                                }
         , borderWidth     = myBorderWidth
         , terminal        = myTerminal
 --      , logHook         = fadeInactiveLogHook 0xdddddddd
@@ -38,8 +42,8 @@ myBorderWidth = 3
 myLayoutHook  = avoidStruts $ layoutHook defaultConfig
 myManageHook  = manageDocks <+> manageHook defaultConfig
 
-myLogHook h   = dynamicLogWithPP xmobarPP {
-                  ppOutput = hPutStrLn h
-                }
+-- myLogHook h   = dynamicLogWithPP xmobarPP {
+--                  ppOutput = hPutStrLn h
+--                }
 -- for keyboard shortcut
 modm          = mod4Mask

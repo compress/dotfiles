@@ -2,6 +2,8 @@
 "   \ \ | |_|     V  __/ __|¬
 "    \ \| | | | | | | | [__¬
 " [_] \___|_|_|_|_|_| \____|¬"
+"
+" This .vimrc was edited by compress.
 
 " about .vimrc
 nnoremap <silent> <Space>ev  :<C-u>edit $MYVIMRC<CR>
@@ -95,11 +97,11 @@ inoremap <C-f> <Right>
 " カーソル後の文字削除
 inoremap <silent> <C-d> <Del>
 " 引用符, 括弧の設定
-inoremap { {}<Left>
-inoremap [ []<Left>
-inoremap ( ()<Left>
-inoremap " ""<Left>
-inoremap ' ''<Left>
+inoremap {} {}<Left>
+inoremap [] []<Left>
+inoremap () ()<Left>
+inoremap "" ""<Left>
+inoremap '' ''<Left>
 inoremap <> <><Left>
 
 " c-a,c-e

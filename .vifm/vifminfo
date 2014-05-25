@@ -15,9 +15,9 @@
 	../
 
 # TUI:
-al
+ar
 q0
-v1
+v2
 ov
 m-1
 l2
@@ -180,6 +180,30 @@ d/home/compress/.wicd
 d/home/compress
 	.kde4/
 8
+d/home/compress/.kde4
+	../
+0
+d/home/compress
+	.gtkpod/
+7
+d/home/compress/.gtkpod
+	../
+0
+d/home/compress
+	musics/
+28
+d/home/compress/musics
+	torrent/
+6
+d/home/compress/musics/torrent
+	Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]/
+1
+d/home/compress/musics/torrent/Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]
+	art/
+1
+d/home/compress/musics/torrent
+	Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]/
+1
 d
 
 # Right window history (oldest to newest):
@@ -205,8 +229,50 @@ D/home/compress/.vim
 	colors/
 4
 D/home/compress/.vim/colors
-	hybrid.vim
+	../
+0
+D/home/compress/.vim
+	colors/
+4
+D/home/compress
+	.vim/
+7
+D/home
+	compress/
+1
+D/home/compress
+	.uim.d/
+5
+D/home
+	compress/
+1
+D/
+	dev/
 2
+D/dev
+	bus/
+3
+D/
+	mnt/
+8
+D/mnt
+	sdb1/
+2
+D/mnt/sdb1
+	musics/
+11
+D/mnt/sdb1/musics
+	Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]/
+1
+D/mnt/sdb1
+	tycho/
+13
+D/mnt/sdb1/tycho
+	2002 The Science of Patterns EP/
+1
+D/mnt/sdb1
+	SoundEngine Free/
+7
 D
 
 # Command line history (oldest to newest):
@@ -218,8 +284,10 @@ D
 :!!chmod u+x zipinfolder.sh
 :!!./zipinfolder.sh
 :h
-:vs
 :only
+:vs
+:!!mkdir musics
+:!!sudo mkdir musics
 :q
 
 # Search history (oldest to newest):
@@ -227,12 +295,16 @@ D
 /manga
 /gvim zipinfolder.sh
 /mo
+/musics
+/bri
+/musi
 
 # Prompt history (oldest to newest):
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/compress/musics/torrent/Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]
 
 # Directory stack (oldest to newest):
 
