@@ -125,6 +125,7 @@ alias v=vim
 alias awetest="Xephyr -ac -br -noreset -screen 800x600 :1 & sleep 1 && DISPLAY=:1.0 awesome -c ~/.config/awesome/rc.lua"
 alias vimaw="vim ~/.config/awesome/rc.lua"
 alias xmodmapdefault="xmodmap ~/.Xmodmap"
+alias githubpush="git add . && git commit -m "first commit" && git push origin master"
 
 # cdコマンド実行後、lsを実行する
 #function cd() {
