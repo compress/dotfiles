@@ -1,1 +1,1 @@
-['read', 'vimperatorrc', 'source', 'ignorecase', 'inoremap', 'noremap']
+['read', 'vimperatorrc', 'source', 'ignorecase', 'inoremap', 'noremap', 'yで選択範囲をコピー', 'echo', 'Yank']

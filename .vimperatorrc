@@ -3,6 +3,8 @@ map S :source ~/.vimperatorrc
 
 set ignorecase
 
+set hintchars=hjklasdfgyuiopqwertnmzxcvb
+
 "--------------------
 " key map
 "--------------------
