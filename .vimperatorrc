@@ -10,6 +10,7 @@ set hintchars=hjklasdfgyuiopqwertnmzxcvb
 "--------------------
 
 inoremap <c-j> <Esc>
+noremap <c-j> <Esc>
 
 noremap ; :
 noremap : ;
