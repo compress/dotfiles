@@ -3,12 +3,17 @@ map S :source ~/.vimperatorrc
 
 set ignorecase
 
+"--------------------
+" key map
+"--------------------
+
 inoremap <c-j> <Esc>
 
 noremap ; :
 noremap : ;
 
-noremap J 3j
-noremap K 3k
+noremap j 4j
+noremap k 4k
 
-noremap v cvy<Esc><Esc>
+"yで選択範囲をコピー
+map y :echo 'Yank!'<CR>Y

@@ -1,101 +1,6 @@
 <?xml version="1.0"?>
 <RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#home-button"
-                   class="toolbarbutton-1 chromeclass-toolbar-additional" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
-                   sidebarcommand=""
-                   width=""
-                   src="chrome://browser/content/history/history-panel.xul" />
-  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul">
-    <NC:persist RDF:resource="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/sanitize.xul#SanitizeDialog"
-                   screenX="201"
-                   screenY="204" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#PersonalToolbar"
-                   mode="icons"
-                   currentset="__empty"
-                   collapsed="true" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#navigator-toolbox"
-                   mode="icons"
-                   iconsize="large"
-                   abp-iconposition="visible,nav-bar," />
-  <RDF:Description RDF:about="chrome://browser/content/pageinfo/pageInfo.xul#main-window"
-                   screenX="0"
-                   width="600"
-                   height="500"
-                   sizemode="normal"
-                   screenY="249" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#addon-bar"
-                   mode="icons"
-                   currentset="addonbar-closebutton,spring,status-bar"
-                   collapsed="true" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#TabsToolbar"
-                   currentset="appmenu-toolbar-button,tabbrowser-tabs,new-tab-button,alltabs-button,tabs-closebutton" />
-  <RDF:Description RDF:about="chrome://rightstoclose/content/options.xul#RightsToClosePreferences"
-                   lastSelected="pane1"
-                   screenX="356"
-                   screenY="319" />
-  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"
-                   screenX="208"
-                   screenY="115"
-                   lastSelected="panePrivacy" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
-                   sizemode="normal"
-                   screenX="0"
-                   width="1018"
-                   screenY="17"
-                   height="745" />
-  <RDF:Description RDF:about="chrome://browser/content/sanitize.xul">
-    <NC:persist RDF:resource="chrome://browser/content/sanitize.xul#SanitizeDialog"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"
-                   screenX="274"
-                   screenY="226" />
-  <RDF:Description RDF:about="chrome://tabmixplus/content/preferences/preferences.xul#TabMIxPreferences"
-                   lastSelected="paneSession"
-                   screenX="248"
-                   screenY="112" />
-  <RDF:Description RDF:about="chrome://keysnail/content/preference.xul#keysnail-preference"
-                   screenX="105"
-                   screenY="34"
-                   lastSelected="prefpane-keys" />
-  <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"
-                   width="646"
-                   height="480" />
-  <RDF:Description RDF:about="place:folder=131&amp;excludeItems=1&amp;excludeQueries=1&amp;excludeReadOnlyFolders=1"
-                   NC:open="true" />
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul">
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentTags"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentUrl"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDate"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentVisitCount"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentKeyword"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDescription"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDateAdded"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentLastModified"/>
-    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#places"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDescription"
-                   ordinal="13" />
-  <RDF:Description RDF:about="chrome://mozapps/content/handling/dialog.xul#handling"
-                   screenX="321"
-                   screenY="193"
-                   width="381"
-                   height="381" />
-  <RDF:Description RDF:about="chrome://keysnail/content/preference.xul">
-    <NC:persist RDF:resource="chrome://keysnail/content/preference.xul#keysnail-preference"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#places"
-                   width="700"
-                   height="500"
-                   sizemode="normal"
-                   screenX="0"
-                   screenY="2" />
-  <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul">
-    <NC:persist RDF:resource="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"/>
-  </RDF:Description>
   <RDF:Description RDF:about="chrome://browser/content/browser.xul">
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
@@ -109,34 +14,140 @@
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#home-button"/>
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#liberator-statusline"/>
   </RDF:Description>
-  <RDF:Description RDF:about="place:beginTime=1396450800000000&amp;endTime=1396537200000000&amp;sort=1"
-                   NC:open="true" />
-  <RDF:Description RDF:about="chrome://tabscope/content/prefs.xul">
-    <NC:persist RDF:resource="chrome://tabscope/content/prefs.xul#tabscopePrefs"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://mozapps/content/handling/dialog.xul">
-    <NC:persist RDF:resource="chrome://mozapps/content/handling/dialog.xul#handling"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://mozapps/content/plugins/pluginInstallerWizard.xul#plugin-installer-wizard"
-                   screenX="178"
-                   screenY="130"
-                   width="667"
-                   height="533"
-                   sizemode="normal" />
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentVisitCount"
-                   ordinal="9" />
-  <RDF:Description RDF:about="place:folder=BOOKMARKS_MENU&amp;excludeItems=1&amp;excludeQueries=1&amp;excludeReadOnlyFolders=1"
-                   NC:open="true" />
-  <RDF:Description RDF:about="chrome://browser/content/pageinfo/pageInfo.xul">
-    <NC:persist RDF:resource="chrome://browser/content/pageinfo/pageInfo.xul#main-window"/>
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDescription"
+                   ordinal="13" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#liberator-statusline"
+                   currentset="liberator-mode-toolbar,liberator-message-toolbar,liberator-status" />
+  <RDF:Description RDF:about="chrome://browser/content/sync/setup.xul">
+    <NC:persist RDF:resource="chrome://browser/content/sync/setup.xul#wizard"/>
   </RDF:Description>
   <RDF:Description RDF:about="chrome://rightstoclose/content/options.xul">
     <NC:persist RDF:resource="chrome://rightstoclose/content/options.xul#RightsToClosePreferences"/>
   </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#liberator-statusline"
-                   currentset="liberator-mode-toolbar,liberator-message-toolbar,liberator-status" />
+  <RDF:Description RDF:about="chrome://keysnail/content/preference.xul#keysnail-preference"
+                   screenX="105"
+                   screenY="34"
+                   lastSelected="prefpane-keys" />
+  <RDF:Description RDF:about="chrome://tabmixplus/content/preferences/preferences.xul">
+    <NC:persist RDF:resource="chrome://tabmixplus/content/preferences/preferences.xul#TabMIxPreferences"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
+                   value="" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentKeyword"
+                   ordinal="11" />
+  <RDF:Description RDF:about="chrome://keysnail/content/preference.xul">
+    <NC:persist RDF:resource="chrome://keysnail/content/preference.xul#keysnail-preference"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/sync/setup.xul#wizard"
+                   screenX="0"
+                   screenY="17" />
+  <RDF:Description RDF:about="place:beginTime=1396450800000000&amp;endTime=1396537200000000&amp;sort=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"
+                   width="646"
+                   height="480" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentVisitCount"
+                   ordinal="9" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#toolbar-menubar"
+                   mode="icons"
+                   currentset="menubar-items,spacer"
+                   autohide="true" />
+  <RDF:Description RDF:about="chrome://mozapps/content/handling/dialog.xul#handling"
+                   screenX="321"
+                   screenY="193"
+                   width="381"
+                   height="381" />
+  <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul">
+    <NC:persist RDF:resource="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"
+                   screenX="208"
+                   screenY="115"
+                   lastSelected="panePrivacy" />
   <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDateAdded"
                    ordinal="15" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDate"
+                   ordinal="7"
+                   sortDirection="descending" />
+  <RDF:Description RDF:about="chrome://tabmixplus/content/preferences/preferences.xul#TabMIxPreferences"
+                   lastSelected="paneSession"
+                   screenX="248"
+                   screenY="112" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentUrl"
+                   ordinal="5" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentLastModified"
+                   ordinal="17" />
+  <RDF:Description RDF:about="chrome://mozapps/content/handling/dialog.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/handling/dialog.xul#handling"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#home-button"
+                   class="toolbarbutton-1 chromeclass-toolbar-additional" />
+  <RDF:Description RDF:about="place:folder=BOOKMARKS_MENU&amp;excludeItems=1&amp;excludeQueries=1&amp;excludeReadOnlyFolders=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="place:folder=131&amp;excludeItems=1&amp;excludeQueries=1&amp;excludeReadOnlyFolders=1"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://itsalltext/content/preferences.xul">
+    <NC:persist RDF:resource="chrome://itsalltext/content/preferences.xul#itsalltext-prefs"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#navigator-toolbox"
+                   mode="icons"
+                   iconsize="large"
+                   abp-iconposition="visible,nav-bar," />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentTags"
+                   ordinal="3" />
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul">
+    <NC:persist RDF:resource="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/pageinfo/pageInfo.xul">
+    <NC:persist RDF:resource="chrome://browser/content/pageinfo/pageInfo.xul#main-window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul">
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentTags"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentUrl"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDate"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentVisitCount"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentKeyword"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDescription"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentDateAdded"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#placesContentLastModified"/>
+    <NC:persist RDF:resource="chrome://browser/content/places/places.xul#places"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://itsalltext/content/preferences.xul#itsalltext-prefs"
+                   lastSelected="itsalltext-pane"
+                   screenX="0"
+                   screenY="17" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#addon-bar"
+                   mode="icons"
+                   currentset="addonbar-closebutton,spring,status-bar"
+                   collapsed="true" />
+  <RDF:Description RDF:about="chrome://mozapps/content/plugins/pluginInstallerWizard.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/plugins/pluginInstallerWizard.xul#plugin-installer-wizard"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#PersonalToolbar"
+                   mode="icons"
+                   currentset="__empty"
+                   collapsed="true" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"
+                   screenX="274"
+                   screenY="226" />
+  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#places"
+                   sizemode="normal"
+                   screenX="0"
+                   screenY="17"
+                   width="1018"
+                   height="745" />
+  <RDF:Description RDF:about="chrome://browser/content/sanitize.xul#SanitizeDialog"
+                   screenX="201"
+                   screenY="204" />
+  <RDF:Description RDF:about="chrome://rightstoclose/content/options.xul#RightsToClosePreferences"
+                   lastSelected="pane1"
+                   screenX="356"
+                   screenY="319" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#nav-bar"
+                   mode="icons"
+                   iconsize="large"
+                   collapsed="false"
+                   currentset="unified-back-forward-button,downloads-button,urlbar-container,reload-button,stop-button,home-button,separator,webrtc-status-button,window-controls,social-share-button,search-container,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,abp-toolbarbutton" />
   <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul">
     <NC:persist RDF:resource="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"/>
   </RDF:Description>
@@ -144,32 +155,34 @@
                    lastSelected="generalPane"
                    screenX="307"
                    screenY="169" />
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentUrl"
-                   ordinal="5" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#nav-bar"
-                   mode="icons"
-                   iconsize="large"
-                   collapsed="false"
-                   currentset="unified-back-forward-button,downloads-button,urlbar-container,reload-button,stop-button,home-button,separator,webrtc-status-button,window-controls,social-share-button,search-container,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,spacer,abp-toolbarbutton" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
+                   src="chrome://browser/content/history/history-panel.xul" />
+  <RDF:Description RDF:about="chrome://tabscope/content/prefs.xul">
+    <NC:persist RDF:resource="chrome://tabscope/content/prefs.xul#tabscopePrefs"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#TabsToolbar"
+                   currentset="appmenu-toolbar-button,tabbrowser-tabs,new-tab-button,alltabs-button,tabs-closebutton" />
+  <RDF:Description RDF:about="chrome://browser/content/pageinfo/pageInfo.xul#main-window"
+                   screenX="0"
+                   width="600"
+                   height="500"
+                   sizemode="normal"
+                   screenY="249" />
   <RDF:Description RDF:about="place:beginTime=1397055600000000&amp;endTime=1397142000000000&amp;sort=1"
                    NC:open="true" />
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentLastModified"
-                   ordinal="17" />
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentTags"
-                   ordinal="3" />
-  <RDF:Description RDF:about="chrome://tabmixplus/content/preferences/preferences.xul">
-    <NC:persist RDF:resource="chrome://tabmixplus/content/preferences/preferences.xul#TabMIxPreferences"/>
+  <RDF:Description RDF:about="chrome://browser/content/sanitize.xul">
+    <NC:persist RDF:resource="chrome://browser/content/sanitize.xul#SanitizeDialog"/>
   </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentDate"
-                   ordinal="7"
-                   sortDirection="descending" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#toolbar-menubar"
-                   mode="icons"
-                   currentset="menubar-items,spacer"
-                   autohide="true" />
-  <RDF:Description RDF:about="chrome://mozapps/content/plugins/pluginInstallerWizard.xul">
-    <NC:persist RDF:resource="chrome://mozapps/content/plugins/pluginInstallerWizard.xul#plugin-installer-wizard"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/places/places.xul#placesContentKeyword"
-                   ordinal="11" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   sizemode="normal"
+                   screenX="0"
+                   width="1018"
+                   screenY="17"
+                   height="745" />
+  <RDF:Description RDF:about="chrome://mozapps/content/plugins/pluginInstallerWizard.xul#plugin-installer-wizard"
+                   screenX="178"
+                   screenY="130"
+                   width="667"
+                   height="533"
+                   sizemode="normal" />
 </RDF:RDF>
