@@ -10,6 +10,9 @@
 'h
 	/home/compress/
 	../
+'n
+	/
+	home/
 'z
 	/home/compress/.vifm
 	../
@@ -24,183 +27,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/compress/manga
-	../
-0
-d/home/compress
-	manga/
-27
-d/home
-	compress/
-1
-d/home/compress
-	manga/
-27
-d/home/compress/manga
-	(一般コミック) [押見修造] 惡の華 01-07/
-1
-d/home/compress/manga/(一般コミック) [押見修造] 惡の華 01-07
-	akunohana0/
-1
-d/home/compress/manga/(一般コミック) [押見修造] 惡の華 01-07/akunohana0
-	../
-0
-d/home/compress/manga/(一般コミック) [押見修造] 惡の華 01-07
-	(一般コミック) [押見修造] 惡の華 第01巻.zip
-1
-d/home/compress/manga
-	akunohana10/
-4
-d/home/compress/manga/akunohana10
-	(���-�R�~�b�N) [���C��] ����� �10�/
-1
-d/home/compress/manga
-	jojo001-107/
-11
-d/home/compress
-	manga/
-27
-d/home
-	compress/
-1
-d/home/compress
-	.uim.d/
-4
-d/home/compress/.uim.d
-	customs/
-1
-d/home/compress/.uim.d/customs
-	custom-mozc-keys.scm
-24
-d/home/compress/.uim.d
-	customs/
-1
-d/home/compress
-	.vimperator/
-7
-d/home/compress/.vimperator
-	info/
-1
-d/home/compress/.vimperator/info
-	../
-0
-d/home/compress/.vimperator
-	info/
-1
-d/home/compress
-	.wicd/
-9
-d/home/compress/.wicd
-	WHEREAREMYFILES
-1
-d/home/compress
-	.kde4/
-8
-d/home/compress/.kde4
-	../
-0
-d/home/compress
-	.gtkpod/
-7
-d/home/compress/.gtkpod
-	../
-0
-d/home/compress
-	musics/
-28
-d/home/compress/musics
-	torrent/
-6
-d/home/compress/musics/torrent
-	Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]/
-1
-d/home/compress/musics/torrent/Brian Eno - Another Green World (1975) [2004 Remastered] [EAC-FLAC]
-	art/
-1
-d/home/compress/musics/torrent
-	Chris Clark/
-2
-d/home/compress/musics/torrent/Chris Clark
-	Ceramics Is The Bomb/
-2
-d/home/compress/musics/torrent/Chris Clark/Ceramics Is The Bomb
-	04 A Council.mp3
-4
-d/home/compress/musics/torrent/Chris Clark
-	Clarence Park/
-3
-d/home/compress/musics/torrent/Chris Clark/Clarence Park
-	08 The Chase.mp3
-8
-d/home/compress/musics/torrent/Chris Clark
-	Empty The Bones of You/
-4
-d/home/compress/musics/torrent/Chris Clark/Empty The Bones of You
-	09 Umbilical Hut.mp3
-10
-d/home/compress/musics/torrent/Chris Clark
-	Empty The Bones of You/
-4
-d/home/compress/musics/torrent
-	Flying Lotus - Cosmogramma/
-3
-d/home/compress/musics/torrent/Flying Lotus - Cosmogramma
-	Front art.jpg
-18
-d/home/compress/musics/torrent
-	Red Hot Chili Peppers Discography/
-5
-d/home/compress/musics/torrent/Red Hot Chili Peppers Discography
-	Studio Albums/
-2
-d/home/compress/musics/torrent
-	Tycho - Awake/
-6
-d/home/compress/musics/torrent/Tycho - Awake
-	03 - L.mp3
-3
-d/home/compress/musics/torrent
-	Tycho - Discography (2002-2014) [FLAC]/
-7
-d/home/compress/musics/torrent/Tycho - Discography (2002-2014) [FLAC]
-	../
-0
-d/home/compress/musics/torrent
-	Until the Quiet Comes/
-8
-d/home/compress/musics/torrent/Until the Quiet Comes
-	11 DMT Song (feat. Thundercat).mp3
-11
-d/home/compress/musics/torrent
-	flydis/
-9
-d/home/compress/musics/torrent/flydis
-	../
-0
-d/home/compress/musics/torrent
-	flydis/
-9
-d/home/compress/musics/torrent/flydis
-	Flying Lotus Discography/
-1
-d/home/compress/musics/torrent/flydis/Flying Lotus Discography
-	Shhh EP/
-22
-d/home/compress/musics/torrent/flydis/Flying Lotus Discography/Shhh EP
-	03-flying_lotus-r2d2_(rjd2_remix).mp3
-3
-d/home/compress/musics/torrent/flydis/Flying Lotus Discography
-	Reset EP/
-21
-d/home/compress/musics/torrent/flydis/Flying Lotus Discography/Reset EP
-	03-flying_lotus-message_situation.mp3
-3
-d/home/compress/musics/torrent/flydis/Flying Lotus Discography
-	Reset EP/
-21
-d/home/compress/musics/torrent/flydis
-	Flying Lotus Discography/
-1
 d/home/compress/musics/torrent/flydis/Flying Lotus Discography
 	Reset EP/
 21
@@ -322,8 +148,185 @@ d/home/compress/downloads
 	clipgrab/
 5
 d/home/compress/downloads/clipgrab
-	Zabutom - Blast off into space [HQ].mp3
+	chiptune/
 1
+d/home/compress/downloads/clipgrab/chiptune
+	../
+0
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads/clipgrab/musics
+	../
+0
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads/clipgrab/musics
+	chiptune/
+1
+d/home/compress/downloads/clipgrab/musics/chiptune
+	Zabutom - Emerald.mp3
+4
+d/home/compress/downloads/clipgrab/musics
+	chiptune/
+1
+d/home/compress/downloads/clipgrab/musics/chiptune
+	Zabutom - Emerald.mp3
+4
+d/home/compress/downloads/clipgrab/musics
+	../
+0
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads/clipgrab/musics
+	Luke Vibert - Combination Reggae Dancing.mp3
+2
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads
+	clipgrab/
+5
+d/home/compress
+	downloads/
+13
+d/home
+	compress/
+1
+d/home/compress
+	downloads/
+13
+d/home/compress/downloads
+	clipgrab/
+5
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads/clipgrab/musics
+	Luke Vibert - Combination Reggae Dancing.mp3
+2
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads
+	clipgrab/
+5
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads/clipgrab/musics
+	Luke Vibert - Combination Reggae Dancing.mp3
+2
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads
+	clipgrab/
+5
+d/home/compress
+	downloads/
+13
+d/home
+	guest/
+2
+d/home/guest
+	.bash_logout
+1
+d/home
+	compress/
+1
+d/home/compress
+	downloads/
+13
+d/home
+	guest/
+2
+d/home/guest
+	.bash_logout
+1
+d/home
+	compress/
+1
+d/home/compress
+	downloads/
+13
+d/home
+	guest/
+2
+d/home/guest
+	.bash_logout
+1
+d/home
+	guest/
+2
+d/home/guest
+	.bashrc
+3
+d/home
+	guest/
+2
+d/home/guest
+	.bashrc
+3
+d/home
+	guest/
+2
+d/home/guest
+	.xinitrc
+5
+d/home
+	compress/
+1
+d/home/compress
+	downloads/
+13
+d/home
+	guest/
+2
+d/home/guest
+	.bashrc
+3
+d/home
+	guest/
+2
+d/
+	bin/
+0
+d/bin
+	../
+0
+d/
+	bin/
+0
+d/home/compress
+	downloads/
+13
+d/home/compress/downloads
+	README.txt
+15
+d/home/compress
+	minecraft/
+20
+d/home/compress/minecraft
+	Minecraft.jar
+1
+d/home/compress
+	downloads/
+26
+d/home/compress/downloads
+	clipgrab/
+5
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads/clipgrab/musics
+	chiptune/
+1
+d/home/compress/downloads/clipgrab/musics/chiptune
+	Zabutom and Dubmood - One little wish.mp3
+10
 d
 
 # Right window history (oldest to newest):
@@ -420,6 +423,114 @@ D/home/compress
 D/home/compress/ringca
 	massagemmf.mmf
 13
+D/home/compress
+	downloads/
+16
+D/home/compress/downloads
+	vimperator.vim
+33
+D/home/compress
+	.vim/
+4
+D/home/compress/.vim
+	syntax/
+15
+D/home/compress/.vim/syntax
+	../
+0
+D/home/compress/.vim
+	syntax/
+15
+D/home/compress/.vim/syntax
+	vimperator.vim
+1
+D/home/compress/.vim
+	syntax/
+15
+D/home/compress/.vim/syntax
+	vimperator.vim
+1
+D/home/compress/.vim
+	syntax/
+15
+D/home/compress
+	.vimperator/
+5
+D/home/compress/.vimperator
+	info/
+1
+D/home/compress/.vimperator/info
+	../
+0
+D/home/compress/.vimperator
+	info/
+1
+D/home/compress
+	.vimperatorrc
+29
+D/home/compress/dotfiles
+	.vimperatorrc
+13
+D/home/compress
+	dotfiles/
+4
+D/home/compress/dotfiles
+	.vimperatorrc
+13
+D/home/compress
+	dotfiles/
+4
+D/home/compress/dotfiles
+	.vimperatorrc
+13
+D/home/compress
+	ringca/
+18
+D/home
+	compress/
+1
+D/home/compress
+	downloads/
+8
+D/home
+	compress/
+1
+D/
+	mnt/
+8
+D/mnt
+	sdb1/
+2
+D/mnt/sdb1
+	Music/
+2
+D/mnt/sdb1/Music
+	?????/
+2
+D/mnt/sdb1/Music/?????
+	19 ???????.wma
+19
+D/mnt/sdb1/Music
+	Ryuichi Sakamoto - 1996/
+16
+D/mnt/sdb1/Music/Ryuichi Sakamoto - 1996
+	11 - Aoneko no Torso.mp3
+11
+D/mnt/sdb1/Music
+	Chiptune2/
+7
+D/mnt/sdb1/Music/Chiptune2
+	../
+0
+D/mnt/sdb1
+	Music/
+2
+D/mnt/sdb1/Music
+	Chiptune2/
+7
+D/mnt/sdb1/Music/Chiptune2
+	Zabutom and Dubmood - You can do it, but not like we do it.mp3
+14
 D
 
 # Command line history (oldest to newest):
@@ -431,14 +542,21 @@ D
 :!!chmod u+x zipinfolder.sh
 :!!./zipinfolder.sh
 :h
-:only
-:vs
 :!!mkdir musics
 :!!sudo mkdir musics
+:only
+:vs
+:mkdir Chiptune2
+:sudo mkdir 
+:mkdir musics
+:cd ~
+:mkdir minecraft
+:sudo paste
+:sudo 
 :q
 
 # Search history (oldest to newest):
-/.vim
+/mnt
 /manga
 /gvim zipinfolder.sh
 /mo
@@ -449,7 +567,13 @@ D
 /Music
 /music
 /downlo
+/.vim
+/.vimpera
+/mn
+/chi
+/mine
 /down
+/cli
 
 # Prompt history (oldest to newest):
 pmassage_situation.mp3
@@ -457,10 +581,7 @@ pmassage_situation.mp3
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/compress/downloads/clipgrab/Zabutom - Blast off into space [HQ].mp3
-""/home/compress/downloads/clipgrab/Zabutom - Final Blast (TO THE END OF THE GALAXY).mp3
-""/home/compress/downloads/clipgrab/Zabutom - Return of the Ninja.mp3
-""/home/compress/downloads/clipgrab/Zabutom and Dubmood - ST-Style.mp3
+""/home/compress/downloads/clipgrab/musics/chiptune/Zabutom and Dubmood - One little wish.mp3
 
 # Directory stack (oldest to newest):
 

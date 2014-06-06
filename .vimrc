@@ -197,6 +197,10 @@ NeoBundle 'fholgado/minibufexpl.vim' " バッファをタブ状表示
 "NeoBundle 'tyru/skk.vim'
 NeoBundle 'vim-scripts/closetag.vim'
 NeoBundle 'basyura/TweetVim'
+NeoBundle 'basyura/twibill.vim'
+NeoBundle 'tyru/open-browser.vim'
+NeoBundle 'h1mesuke/unite-outline'
+NeoBundle 'basyura/bitly.vim'
 
 " for AOJ
 NeoBundle 'mattn/webapi-vim'
@@ -521,8 +525,39 @@ let g:aoj#user_id = 'compress'
 " It opens Submit Statistics List in unite buffer.
 
 "----------------------------------------------------
-"
+" Tweetvim
 "----------------------------------------------------
+nnoremap <silent> ts :<C-u>TweetVimSay<CR>
+nnoremap <silent> tt :TweetVimHomeTimeline<CR>
+nnoremap <silent> tm :TweetVimMentions<CR>
+"// :reload
+
+"" default keymap(default leader is "\")
+"nmap <silent> <buffer> <CR> <Plug>(tweetvim_action_enter)
+"nmap <silent> <buffer> r  <Plug>(tweetvim_action_reply)
+"nmap <silent> <buffer> i  <Plug>(tweetvim_action_in_reply_to)
+"nmap <silent> <buffer> u  <Plug>(tweetvim_action_user_timeline)
+"nmap <silent> <buffer> o  <Plug>(tweetvim_action_open_links)
+"nmap <silent> <buffer> q  <Plug>(tweetvim_action_search)
+"nmap <silent> <buffer> <leader>f  <Plug>(tweetvim_action_favorite)
+"nmap <silent> <buffer> <leader>uf <Plug>(tweetvim_action_remove_favorite)
+"nmap <silent> <buffer> <leader>r  <Plug>(tweetvim_action_retweet)
+"nmap <silent> <buffer> <leader>q  <Plug>(tweetvim_action_qt)
+"nmap <silent> <buffer> <Leader><Leader>  <Plug>(tweetvim_action_reload)
+"
+"nmap <silent> <buffer> ff  <Plug>(tweetvim_action_page_next)
+"nmap <silent> <buffer> bb  <Plug>(tweetvim_action_page_previous)
+"
+"nmap <silent> <buffer> H  <Plug>(tweetvim_buffer_previous)
+"nmap <silent> <buffer> L  <Plug>(tweetvim_buffer_next)
+"
+"nnoremap <silent> <buffer> a :call unite#sources#tweetvim_action#start()<CR>
+"nnoremap <silent> <buffer> t :call unite#sources#tweetvim_timeline#start()<CR>
+
+"----------------------------------------------------
+" VimShell
+"----------------------------------------------------
+nnoremap <silent> ,sh :VimShell<CR>
 
 " others
 

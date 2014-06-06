@@ -2,6 +2,7 @@ AOJ.vim
 TweetVim
 Wombat
 Zenburn
+bitly.vim
 closetag.vim
 emmet-vim
 gentooish.vim
@@ -16,10 +17,13 @@ neocomplcache
 neosnippet
 neosnippet-snippets
 nerdtree
+open-browser.vim
 phd
 pyte
 sudo.vim
 summerfruit256.vim
+twibill.vim
+unite-outline
 unite.vim
 vim-colors-solarized
 vim-fugitive

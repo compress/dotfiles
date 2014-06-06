@@ -1,0 +1,1 @@
+['.xinitrc', 'Executed', 'startx', 'your', 'window', 'manager', 'from', 'here', 'xinit', 'xinitrc.d', 'then', 'done', 'unset', 'exec', 'gnome-session', 'startkde', 'startxfce4', '...or', 'Window', 'Manager', 'choice']
