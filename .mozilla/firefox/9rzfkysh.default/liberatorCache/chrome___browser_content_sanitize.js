@@ -217,14 +217,6 @@ Sanitizer.prototype = {
         }
         catch (e) { }
 
-        // Clear last URL of the Open Web Location dialog
-        var prefs = Components.classes["@mozilla.org/preferences-service;1"]
-                              .getService(Components.interfaces.nsIPrefBranch);
-        try {
-          prefs.clearUserPref("general.open_location.last_url");
-        }
-        catch (e) { }
-
         try {
           var seer = Components.classes["@mozilla.org/network/seer;1"]
                                .getService(Components.interfaces.nsINetworkSeer);
@@ -469,9 +461,9 @@ Sanitizer.showUI = function(aParentWindow)
 {
   var ww = Components.classes["@mozilla.org/embedcomp/window-watcher;1"]
                      .getService(Components.interfaces.nsIWindowWatcher);
-//@line 478 "/build/firefox/src/mozilla-release/browser/base/content/sanitize.js"
+//@line 470 "/build/firefox/src/mozilla-release/browser/base/content/sanitize.js"
   ww.openWindow(aParentWindow,
-//@line 480 "/build/firefox/src/mozilla-release/browser/base/content/sanitize.js"
+//@line 472 "/build/firefox/src/mozilla-release/browser/base/content/sanitize.js"
                 "chrome://browser/content/sanitize.xul",
                 "Sanitize",
                 "chrome,titlebar,dialog,centerscreen,modal",

@@ -79,11 +79,11 @@ noremap J 3j
 noremap K 3k
 "noremap L 3l
 
-" CTRL-hjklでウィンドウ移動
-nnoremap <C-j> ;<C-w>j
-nnoremap <C-k> ;<C-k>j
-nnoremap <C-l> ;<C-l>j
-nnoremap <C-h> ;<C-h>j
+" CTRL-hjklでウィンドウ移動(闇)
+"nnoremap <C-j> ;<C-w>j
+"nnoremap <C-k> ;<C-k>j
+"nnoremap <C-l> ;<C-l>j
+"nnoremap <C-h> ;<C-h>j
 
 " バッファの移動
 noremap <C-,> ;bp<CR>
@@ -193,7 +193,7 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'LeafCage/yankround.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'sudo.vim'                 " :w sudo:%とすると管理者権限で保存
-NeoBundle 'fholgado/minibufexpl.vim' " バッファをタブ状表示
+"NeoBundle 'fholgado/minibufexpl.vim' " バッファをタブ状表示
 "NeoBundle 'tyru/skk.vim'
 NeoBundle 'vim-scripts/closetag.vim'
 NeoBundle 'basyura/TweetVim'
@@ -337,13 +337,13 @@ let file_name = expand("%:p")
 " miniBufExplorer
 "----------------------------------------------------
 
-let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplMapWindowNavArrows = 1
-let g:miniBufExplMapCTabSwitchBuffs = 1
-let g:miniBufExplorerMoreThanOne = 0    " 無条件でバッファ一覧が開く
-let g:miniBufExplMapWindowNavVim=1      "hjklで移動
-
-au BufNewFile,BufRead *.ejs set filetype=jst
+"let g:miniBufExplMapWindowNavVim = 1
+"let g:miniBufExplMapWindowNavArrows = 1
+"let g:miniBufExplMapCTabSwitchBuffs = 1
+"let g:miniBufExplorerMoreThanOne = 0    " 無条件でバッファ一覧が開く
+"let g:miniBufExplMapWindowNavVim=1      "hjklで移動
+"
+"au BufNewFile,BufRead *.ejs set filetype=jst
 
 "----------------------------------------------------
 " NERD Commenter
@@ -502,7 +502,7 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 " Emmet.vim
 "----------------------------------------------------
 " 展開するキーバインドを変更
-let g:user_emmet_expandabbr_key = '<C-l>'
+let g:user_emmet_expandabbr_key = ',l'
 let g:user_emmet_settings = {'indentation' : '  '}
 
 "----------------------------------------------------
@@ -559,5 +559,22 @@ nnoremap <silent> tm :TweetVimMentions<CR>
 "----------------------------------------------------
 nnoremap <silent> ,sh :VimShell<CR>
 
-" others
+"----------------------------------------------------
+" VimShell
+"----------------------------------------------------
+":VimFilerIDEでVimFilerをIDEのように表示する
+function! VimFilerIDE()
+    VimFiler -split -simple -winwidth=35 -no-quit
+endfunction
+command! VimFilerIDE call VimFilerIDE()
 
+"vimデフォルトのエクスプローラをvimfilerで置き換える
+let g:vimfiler_as_default_explorer = 1
+"セーフモードを無効にした状態で起動する
+let g:vimfiler_safe_mode_by_default = 0
+"VimFilerを起動する
+nnoremap <silent> ,ff :<C-u>VimFiler<CR>
+"現在開いているバッファのディレクトリを開く
+nnoremap <silent> ,fe :<C-u>VimFilerBufferDir -quit<CR>
+"現在開いているバッファをIDE風に開く
+nnoremap <silent> ,fi :<C-u>VimFilerBufferDir -split -simple -winwidth=35 -no-quit<CR>

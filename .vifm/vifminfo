@@ -326,7 +326,7 @@ d/home/compress/downloads/clipgrab/musics
 1
 d/home/compress/downloads/clipgrab/musics/chiptune
 	Zabutom and Dubmood - One little wish.mp3
-10
+11
 d
 
 # Right window history (oldest to newest):
@@ -531,6 +531,9 @@ D/mnt/sdb1/Music
 D/mnt/sdb1/Music/Chiptune2
 	Zabutom and Dubmood - You can do it, but not like we do it.mp3
 14
+D/mnt/sdb1
+	../
+0
 D
 
 # Command line history (oldest to newest):
