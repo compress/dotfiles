@@ -64,10 +64,27 @@ autocmd BufWritePre * :%s/\t/  /ge
 " タブ幅をリセット
 autocmd BufNewFile,BufRead * set tabstop=4 shiftwidth=4
 
-" keybind
+" keybindings
+
+"Leader
+let mapleader = " "
+
+"Change window size easily
+nnoremap <Leader>wb <C-w>>
+nnoremap <Leader>ws <C-w><
+nnoremap <Leader>wj <C-w>+
+nnoremap <Leader>wk <C-w>-
+
+"Move between windows
+nnoremap <Leader>j <C-w>j
+nnoremap <Leader>k <C-w>k
+nnoremap <Leader>h <C-w>h
+nnoremap <Leader>l <C-w>l
+
 "ESC
-inoremap <c-j> <esc>
-vnoremap <c-j> <esc>
+noremap <c-j> <esc>
+noremap! <c-j> <esc>
+
 
 " ;でコマンド入力( ;と:を入れ替え)
 noremap ; :
@@ -79,20 +96,14 @@ noremap J 3j
 noremap K 3k
 "noremap L 3l
 
-" CTRL-hjklでウィンドウ移動(闇)
-"nnoremap <C-j> ;<C-w>j
-"nnoremap <C-k> ;<C-k>j
-"nnoremap <C-l> ;<C-l>j
-"nnoremap <C-h> ;<C-h>j
-
 " バッファの移動
 noremap <C-,> ;bp<CR>
 noremap <C-.> ;bn<CR>
 
-inoremap <C-n> <Down>
-inoremap <C-p> <Up>
-inoremap <C-b> <Left>
-inoremap <C-f> <Right>
+noremap! <C-n> <Down>
+noremap! <C-p> <Up>
+noremap! <C-b> <Left>
+noremap! <C-f> <Right>
 
 " カーソル後の文字削除
 inoremap <silent> <C-d> <Del>
@@ -218,6 +229,7 @@ NeoBundle 'vim-scripts/pyte'
 NeoBundle 'vim-scripts/phd'
 NeoBundle 'djjcast/mirodark'
 NeoBundle 'briancarper/gentooish.vim'
+NeoBundle '29decibel/codeschool-vim-theme'
 
 filetype plugin on
 filetype indent on
@@ -528,21 +540,24 @@ let g:aoj#user_id = 'compress'
 " Tweetvim
 "----------------------------------------------------
 nnoremap <silent> ts :<C-u>TweetVimSay<CR>
-nnoremap <silent> tt :TweetVimHomeTimeline<CR>
-nnoremap <silent> tm :TweetVimMentions<CR>
-"// :reload
+nnoremap <silent> tt :<C-u>TweetVimHomeTimeline<CR>
+nnoremap <silent> tm :<C-u>TweetVimMentions<CR>
 
-"" default keymap(default leader is "\")
+let g:tweetvim_display_username=1
+let g:tweetvim_tweet_per_page=50
+
+
+"" default keymap(default Leader is "\")
 "nmap <silent> <buffer> <CR> <Plug>(tweetvim_action_enter)
 "nmap <silent> <buffer> r  <Plug>(tweetvim_action_reply)
 "nmap <silent> <buffer> i  <Plug>(tweetvim_action_in_reply_to)
 "nmap <silent> <buffer> u  <Plug>(tweetvim_action_user_timeline)
 "nmap <silent> <buffer> o  <Plug>(tweetvim_action_open_links)
 "nmap <silent> <buffer> q  <Plug>(tweetvim_action_search)
-"nmap <silent> <buffer> <leader>f  <Plug>(tweetvim_action_favorite)
-"nmap <silent> <buffer> <leader>uf <Plug>(tweetvim_action_remove_favorite)
-"nmap <silent> <buffer> <leader>r  <Plug>(tweetvim_action_retweet)
-"nmap <silent> <buffer> <leader>q  <Plug>(tweetvim_action_qt)
+"nmap <silent> <buffer> <Leader>f  <Plug>(tweetvim_action_favorite)
+"nmap <silent> <buffer> <Leader>uf <Plug>(tweetvim_action_remove_favorite)
+"nmap <silent> <buffer> <Leader>r  <Plug>(tweetvim_action_retweet)
+"nmap <silent> <buffer> <Leader>q  <Plug>(tweetvim_action_qt)
 "nmap <silent> <buffer> <Leader><Leader>  <Plug>(tweetvim_action_reload)
 "
 "nmap <silent> <buffer> ff  <Plug>(tweetvim_action_page_next)
@@ -557,7 +572,7 @@ nnoremap <silent> tm :TweetVimMentions<CR>
 "----------------------------------------------------
 " VimShell
 "----------------------------------------------------
-nnoremap <silent> ,sh :VimShell<CR>
+nnoremap <Leader>sh :<C-u>VimShell<CR>
 
 "----------------------------------------------------
 " VimShell
@@ -573,8 +588,34 @@ let g:vimfiler_as_default_explorer = 1
 "セーフモードを無効にした状態で起動する
 let g:vimfiler_safe_mode_by_default = 0
 "VimFilerを起動する
-nnoremap <silent> ,ff :<C-u>VimFiler<CR>
+nnoremap <silent> <Leader>ff :<C-u>VimFiler<CR>
 "現在開いているバッファのディレクトリを開く
-nnoremap <silent> ,fe :<C-u>VimFilerBufferDir -quit<CR>
+nnoremap <silent> <Leader>fe :<C-u>VimFilerBufferDir -quit<CR>
 "現在開いているバッファをIDE風に開く
-nnoremap <silent> ,fi :<C-u>VimFilerBufferDir -split -simple -winwidth=35 -no-quit<CR>
+nnoremap <silent> <Leader>fi :<C-u>VimFilerBufferDir -split -simple -winwidth=35 -no-quit<CR>
+
+"----------------------------------------------------
+" Unite.vim
+"----------------------------------------------------
+" 起動時にインサートモードで開始
+let g:unite_enable_start_insert = 1
+
+" バッファ一覧
+nnoremap <silent> <Leader>ub :<C-u>Unite buffer
+" ファイル一覧
+nnoremap <silent> <Leader>uf :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
+" レジスタ一覧
+nnoremap <silent> <Leader>ur :<C-u>Unite -buffer-name=register register<CR>
+" 最近使用したファイル一覧
+nnoremap <silent> <Leader>um :<C-u>Unite file_mru<CR>
+" 全部乗せ
+nnoremap <silent> <Leader>ua :<C-u>UniteWithBufferDir -buffer-name=files buffer file_mru bookmark file<CR>
+" unite.vim上でのキーマッピング
+autocmd FileType unite call s:unite_my_settings()
+function! s:unite_my_settings()
+  " 単語単位からパス単位で削除するように変更
+  imap <buffer> <C-w> <Plug>(unite_delete_backward_path)
+  " ESCキーを2回押すと終了する
+  nmap <silent><buffer> <ESC><ESC> q
+  imap <silent><buffer> <ESC><ESC> <ESC>q
+endfunction
