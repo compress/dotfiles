@@ -63,17 +63,27 @@ autocmd BufWritePre * :%s/\s\+$//ge
 autocmd BufWritePre * :%s/\t/  /ge
 " タブ幅をリセット
 autocmd BufNewFile,BufRead * set tabstop=4 shiftwidth=4
+"display another file during editing a file
+set hidden
+"カーソルを行頭、行末で止まらないようにする
+set whichwrap=b,s,h,l,<,>,[,]
 
 " keybindings
 
 "Leader
 let mapleader = " "
 
-"Change window size easily
-nnoremap <Leader>wb <C-w>>
-nnoremap <Leader>ws <C-w><
-nnoremap <Leader>wj <C-w>+
-nnoremap <Leader>wk <C-w>-
+""Change window size easily
+"nnoremap <Leader>wb <C-w>>
+"nnoremap <Leader>ws <C-w><
+"nnoremap <Leader>wj <C-w>+
+"nnoremap <Leader>wk <C-w>-
+"
+" Shift + 矢印でウィンドウサイズを変更
+nnoremap <S-Left>  <C-w><<CR>
+nnoremap <S-Right> <C-w>><CR>
+nnoremap <S-Up>    <C-w>-<CR>
+nnoremap <S-Down>  <C-w>+<CR>
 
 "Move between windows
 nnoremap <Leader>j <C-w>j
