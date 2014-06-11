@@ -95,6 +95,11 @@ nnoremap <Leader>l <C-w>l
 noremap <c-j> <esc>
 noremap! <c-j> <esc>
 
+"move naturaly
+noremap j gj
+noremap! j gj
+noremap k gk
+noremap! k gk
 
 " ;でコマンド入力( ;と:を入れ替え)
 noremap ; :
@@ -611,7 +616,7 @@ nnoremap <silent> <Leader>fi :<C-u>VimFilerBufferDir -split -simple -winwidth=35
 let g:unite_enable_start_insert = 1
 
 " バッファ一覧
-nnoremap <silent> <Leader>ub :<C-u>Unite buffer
+nnoremap <silent> <Leader>ub :<C-u>Unite buffer<CR>
 " ファイル一覧
 nnoremap <silent> <Leader>uf :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
 " レジスタ一覧

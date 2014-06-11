@@ -36,6 +36,8 @@
                    height="500"
                    sizemode="normal"
                    screenY="249" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
+                   value="" />
   <RDF:Description RDF:about="chrome://rightstoclose/content/options.xul#RightsToClosePreferences"
                    lastSelected="pane1"
                    screenX="356"
@@ -61,6 +63,8 @@
   <RDF:Description RDF:about="chrome://mozapps/content/plugins/pluginInstallerWizard.xul">
     <NC:persist RDF:resource="chrome://mozapps/content/plugins/pluginInstallerWizard.xul#plugin-installer-wizard"/>
   </RDF:Description>
+  <RDF:Description RDF:about="place:beginTime=1401807600000000&amp;endTime=1402498800000000&amp;sort=1"
+                   NC:open="true" />
   <RDF:Description RDF:about="chrome://global/content/customizeToolbar.xul">
     <NC:persist RDF:resource="chrome://global/content/customizeToolbar.xul#CustomizeToolbarWindow"/>
   </RDF:Description>
@@ -69,13 +73,15 @@
   <RDF:Description RDF:about="place:beginTime=1396450800000000&amp;endTime=1396537200000000&amp;sort=1"
                    NC:open="true" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
-                   src="chrome://browser/content/history/history-panel.xul" />
+                   src="chrome://browser/content/history/history-panel.xul"
+                   sidebarcommand=""
+                   width="" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
                    sizemode="normal"
                    screenX="0"
-                   screenY="17"
                    width="1018"
-                   height="482" />
+                   screenY="17"
+                   height="745" />
   <RDF:Description RDF:about="chrome://browser/content/places/bookmarkProperties.xul#bookmarkproperties"
                    screenX="283"
                    screenY="240"
