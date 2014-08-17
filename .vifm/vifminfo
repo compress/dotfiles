@@ -1,21 +1,26 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Bookmarks:
-'H
-	/home/compress/
-	../
 'b
 	/home/compress/bin/
 	../
+1407078133
 'h
 	/home/compress/
 	../
+1407078133
+'H
+	/home/compress/
+	../
+-1
 'n
 	/
 	home/
+-1
 'z
 	/home/compress/.vifm
 	../
+-1
 
 # TUI:
 ar
@@ -27,24 +32,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/compress/musics/torrent/flydis/Flying Lotus Discography
-	Reset EP/
-21
-d/home/compress/musics/torrent/flydis
-	Flying Lotus Discography/
-1
-d/home/compress/musics/torrent
-	Tycho - Awake/
-6
-d/home/compress/musics
-	My Music/
-2
-d/home/compress/musics/My Music
-	Z会/
-1
-d/home/compress/musics
-	Ideas+drafts+loops/
-1
 d/home/compress/musics/Ideas+drafts+loops
 	coswerved draft.mp3
 19
@@ -325,8 +312,26 @@ d/home/compress/downloads/clipgrab/musics
 	chiptune/
 1
 d/home/compress/downloads/clipgrab/musics/chiptune
-	Zabutom and Dubmood - One little wish.mp3
-11
+	Zabutom - Snow mecha take off.mp3
+9
+d/home/compress/downloads/clipgrab/musics
+	chiptune/
+1
+d/home/compress/downloads/clipgrab
+	musics/
+1
+d/home/compress/downloads
+	clipgrab/
+5
+d/home/compress
+	musics/
+29
+d/home/compress/musics
+	Ideas+drafts+loops/
+2
+d/home/compress/musics/Ideas+drafts+loops
+	Adventure Sound - ft. The Underachievers.mp3
+2
 d
 
 # Right window history (oldest to newest):
@@ -534,6 +539,12 @@ D/mnt/sdb1/Music/Chiptune2
 D/mnt/sdb1
 	../
 0
+D/mnt
+	musics/
+12
+D/mnt/musics
+	Brian Eno - Another Green World (1975) [2004 Remastered]/
+1
 D
 
 # Command line history (oldest to newest):
@@ -556,6 +567,8 @@ D
 :mkdir minecraft
 :sudo paste
 :sudo 
+:mkdir
+:mkdir Ideas
 :q
 
 # Search history (oldest to newest):
@@ -565,7 +578,6 @@ D
 /mo
 /musics
 /bri
-/musi
 /ring
 /Music
 /music
@@ -577,6 +589,7 @@ D
 /mine
 /down
 /cli
+/musi
 
 # Prompt history (oldest to newest):
 pmassage_situation.mp3
@@ -584,12 +597,37 @@ pmassage_situation.mp3
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/compress/downloads/clipgrab/musics/chiptune/Zabutom and Dubmood - One little wish.mp3
+""/home/compress/musics/Ideas+drafts+loops/Adventure Sound - ft. The Underachievers.mp3
+""/home/compress/musics/Ideas+drafts+loops/Aqua teen 24.mp3
+""/home/compress/musics/Ideas+drafts+loops/Aqua teen inst 24.mp3
+""/home/compress/musics/Ideas+drafts+loops/Between Villains.mp3
+""/home/compress/musics/Ideas+drafts+loops/Chasing Apples.mp3
+""/home/compress/musics/Ideas+drafts+loops/Flying Lotus - DJ Mehdi - Mapei IDEAS 1 MIX.mp3
+""/home/compress/musics/Ideas+drafts+loops/Icon
+""/home/compress/musics/Ideas+drafts+loops/Oatmeal Face.mp3
+""/home/compress/musics/Ideas+drafts+loops/Osaka Trade.mp3
+""/home/compress/musics/Ideas+drafts+loops/Puppet Talk.mp3
+""/home/compress/musics/Ideas+drafts+loops/Stonecutters.mp3
+""/home/compress/musics/Ideas+drafts+loops/Such a square.mp3
+""/home/compress/musics/Ideas+drafts+loops/TheKill ft. Niki Randa.mp3
+""/home/compress/musics/Ideas+drafts+loops/Wake me.mp3
+""/home/compress/musics/Ideas+drafts+loops/about that time.mp3
+""/home/compress/musics/Ideas+drafts+loops/an xbox killed my dog.mp3
+""/home/compress/musics/Ideas+drafts+loops/colemans groove . ft. Andreya Triana and Niki Randa .mp3
+""/home/compress/musics/Ideas+drafts+loops/coswerved draft.mp3
+""/home/compress/musics/Ideas+drafts+loops/flotus.mp3
+""/home/compress/musics/Ideas+drafts+loops/hide me ft. Shabazz Palaces.mp3
+""/home/compress/musics/Ideas+drafts+loops/little hours ft. Baths.mp3
+""/home/compress/musics/Ideas+drafts+loops/meadow man2.mp3
+""/home/compress/musics/Ideas+drafts+loops/the diddler.mp3
+""/home/compress/musics/Ideas+drafts+loops/theinbetween.png
+""/home/compress/musics/Ideas+drafts+loops/thundercat - yeezus- black skinhead.mp3
+""/home/compress/musics/Ideas+drafts+loops/tree tunnels3.mp3
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t000_solarized.vim
+t/home/compress/.vifm/Trash/000_solarized.vim
 	/home/compress/.vifm/colors/solarized.vim
 
 # State:

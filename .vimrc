@@ -86,20 +86,18 @@ nnoremap <S-Up>    <C-w>-<CR>
 nnoremap <S-Down>  <C-w>+<CR>
 
 "Move between windows
-nnoremap <Leader>j <C-w>j
-nnoremap <Leader>k <C-w>k
-nnoremap <Leader>h <C-w>h
-nnoremap <Leader>l <C-w>l
+nnoremap <Leader>lj <C-w>j
+nnoremap <Leader>lk <C-w>k
+nnoremap <Leader>lh <C-w>h
+nnoremap <Leader>ll <C-w>l
 
 "ESC
 noremap <c-j> <esc>
 noremap! <c-j> <esc>
 
 "move naturaly
-noremap j gj
-noremap! j gj
-noremap k gk
-noremap! k gk
+nnoremap j gj
+vnoremap k gk
 
 " ;でコマンド入力( ;と:を入れ替え)
 noremap ; :
