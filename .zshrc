@@ -127,6 +127,7 @@ alias vimaw="vim ~/.config/awesome/rc.lua"
 alias xmodmapdefault="xmodmap ~/.Xmodmap"
 alias githubpush="git add . && git commit -m "first commit" && git push origin master"
 alias ls="ls --color=auto"
+alias unzipall="~/sh/allunzip.sh"
 
 # cdコマンド実行後、lsを実行する
 #function cd() {

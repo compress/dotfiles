@@ -1,19 +1,10 @@
 <?xml version="1.0"?>
 <RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Seq RDF:about="rdf://tabmix/closed2/window">
-    <RDF:li RDF:resource="rdf://tabmix/closed2/window/YvSM6jZk"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="rdf://tabmix/closed2/window"
-                   NC:nameExt=", (1 T) (2014/05/29 03:35:49)" />
-  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/evzubYPa/closedtabs">
-  </RDF:Seq>
-  <RDF:Seq RDF:about="rdf://tabmix/closedSession/">
-    <RDF:li RDF:resource="rdf://tabmix/closedSession/thisSession"/>
-    <RDF:li RDF:resource="rdf://tabmix/closedSession/lastSession"/>
-    <RDF:li RDF:resource="rdf://tabmix/closedSession/previoustolastSession"/>
-    <RDF:li RDF:resource="rdf://tabmix/closedSession/crashedsession"/>
-  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/thisSession"
+                   NC:status="stopped">
+    <NC:session RDF:resource="rdf://tabmix/closed1/window"/>
+  </RDF:Description>
   <RDF:Description RDF:about="rdf://tabmix/closed0/window/evzubYPa/tabs/panel-3-1"
                    NC:properties="0011111 hidden=false"
                    NC:tabview-tab="{&quot;groupID&quot;:2,&quot;active&quot;:true}"
@@ -23,11 +14,35 @@
     <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
     <NC:index NC:parseType="Integer">11</NC:index>
   </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closedSession/">
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/thisSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/lastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/previoustolastSession"/>
+    <RDF:li RDF:resource="rdf://tabmix/closedSession/crashedsession"/>
+  </RDF:Seq>
   <RDF:Seq RDF:about="rdf://tabmix/windows">
   </RDF:Seq>
-  <RDF:Description RDF:about="rdf://tabmix/closedSession/thisSession"
-                   NC:status="stopped">
-    <NC:session RDF:resource="rdf://tabmix/closed1/window"/>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window/YvSM6jZk/tabs/panel-3-2"
+                   NC:image="https://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png"
+                   NC:properties="0011111 hidden=false"
+                   NC:scroll="0,1801,1"
+                   NC:history="][|-|YouTube%5D%5Bhttps://www.youtube.com/%5D%5B0,0%5D%5Bzabtom%20-%20YouTube%5D%5Bhttps://www.youtube.com/results?search_query=zabtom%5D%5B0,1801">
+    <NC:index NC:parseType="Integer">1</NC:index>
+    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/YvSM6jZk/tabs">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/YvSM6jZk/tabs/panel-3-2"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf://tabmix/closed2/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed2/window/YvSM6jZk"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed2/window"
+                   NC:nameExt=", (1 T) (2014/05/29 03:35:49)" />
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/previoustolastSession">
+    <NC:session RDF:resource="rdf://tabmix/closed0/window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf://tabmix/closedSession/crashedsession">
+    <NC:session RDF:resource="rdf://tabmix/closed3/window"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf://tabmix/closed0/window/evzubYPa"
                    NC:status="backup"
@@ -41,24 +56,8 @@
     <NC:closedtabs RDF:resource="rdf://tabmix/closed0/window/evzubYPa/closedtabs"/>
     <NC:selectedIndex NC:parseType="Integer">0</NC:selectedIndex>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf://tabmix/closed2/window/YvSM6jZk/tabs/panel-3-2"
-                   NC:image="https://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png"
-                   NC:properties="0011111 hidden=false"
-                   NC:scroll="0,1801,1"
-                   NC:history="][|-|YouTube%5D%5Bhttps://www.youtube.com/%5D%5B0,0%5D%5Bzabtom%20-%20YouTube%5D%5Bhttps://www.youtube.com/results?search_query=zabtom%5D%5B0,1801">
-    <NC:index NC:parseType="Integer">1</NC:index>
-    <NC:tabPos NC:parseType="Integer">0</NC:tabPos>
-  </RDF:Description>
-  <RDF:Seq RDF:about="rdf://tabmix/closed0/window">
-    <RDF:li RDF:resource="rdf://tabmix/closed0/window/evzubYPa"/>
-  </RDF:Seq>
-  <RDF:Description RDF:about="rdf://tabmix/closed0/window"
-                   NC:nameExt=", (1 T) (2014/05/25 10:30:06)" />
   <RDF:Seq RDF:about="rdf://tabmix/closed0/window/evzubYPa/tabs">
     <RDF:li RDF:resource="rdf://tabmix/closed0/window/evzubYPa/tabs/panel-3-1"/>
-  </RDF:Seq>
-  <RDF:Seq RDF:about="rdf://tabmix/closed2/window/YvSM6jZk/tabs">
-    <RDF:li RDF:resource="rdf://tabmix/closed2/window/YvSM6jZk/tabs/panel-3-2"/>
   </RDF:Seq>
   <RDF:Description RDF:about="rdf://tabmix/closed2/window/YvSM6jZk"
                    NC:status="backup"
@@ -69,12 +68,13 @@
     <NC:closedtabs RDF:resource="rdf://tabmix/closed2/window/YvSM6jZk/closedtabs"/>
     <NC:selectedIndex NC:parseType="Integer">0</NC:selectedIndex>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf://tabmix/closedSession/crashedsession">
-    <NC:session RDF:resource="rdf://tabmix/closed3/window"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf://tabmix/closedSession/previoustolastSession">
-    <NC:session RDF:resource="rdf://tabmix/closed0/window"/>
-  </RDF:Description>
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window">
+    <RDF:li RDF:resource="rdf://tabmix/closed0/window/evzubYPa"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf://tabmix/closed0/window"
+                   NC:nameExt=", (1 T) (2014/05/25 10:30:06)" />
+  <RDF:Seq RDF:about="rdf://tabmix/closed0/window/evzubYPa/closedtabs">
+  </RDF:Seq>
   <RDF:Description RDF:about="rdf://tabmix/closedSession/lastSession">
     <NC:session RDF:resource="rdf://tabmix/closed2/window"/>
   </RDF:Description>

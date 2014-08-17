@@ -12,7 +12,7 @@ import XMonad.Util.EZConfig
 main = do
     xmproc <- spawnPipe "xmobar"
     spawn "xmodmap $HOME/.Xmodmap"
-    spawn "feh --bg-scale ~/wallpaper/milky-way-above-the-mountains-nature-hd-wallpaper-1920x1080-6948.jpg"
+    spawn "feh --bg-scale ~/wallpaper/applestore.jpg"
     spawn "xcompmgr &"
     xmonad $ defaultConfig
         {
