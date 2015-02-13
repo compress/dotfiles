@@ -58,17 +58,20 @@ const JavaScript = Module("javascript", {
                 if (toplevel)
                     yield obj;
                 else
-                    for (let o = obj.__proto__; o; o = o.__proto__)
+                    for (let o = obj; o = Object.getPrototypeOf(o);)
                         yield o;
             }
 
             for (let obj in iterObj(orig, toplevel)) {
-                for (let k of Object.getOwnPropertyNames(obj)) {
-                    let name = "|" + k;
-                    if (name in seen)
-                        continue;
-                    seen[name] = 1;
-                    yield [k, this.getKey(orig, k)];
+                try {
+                    for (let k of Object.getOwnPropertyNames(obj)) {
+                        let name = "|" + k;
+                        if (name in seen)
+                            continue;
+                        seen[name] = 1;
+                        yield [k, this.getKey(orig, k)];
+                    }
+                } catch (ex) {
                 }
             }
         }
@@ -90,7 +93,7 @@ const JavaScript = Module("javascript", {
 
         let completions;
         if (modules.isPrototypeOf(obj))
-            completions = [v for (v in Iterator(obj))];
+            completions = toplevel ? [v for (v in Iterator(obj))] : [];
         else {
             completions = [k for (k in this.iter(obj, toplevel))];
             if (!toplevel)

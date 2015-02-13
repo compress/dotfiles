@@ -545,6 +545,78 @@ D/mnt
 D/mnt/musics
 	Brian Eno - Another Green World (1975) [2004 Remastered]/
 1
+D/mnt
+	sdb1/
+2
+D/mnt/sdb1
+	Yuya-iTunes/
+29
+D/mnt/sdb1/Yuya-iTunes
+	iTunes Media/
+3
+D/mnt/sdb1/Yuya-iTunes/iTunes Media
+	../
+0
+D/mnt/sdb1/Yuya-iTunes
+	iTunes Media/
+3
+D/mnt/sdb1/Yuya-iTunes/iTunes Media
+	Music/
+4
+D/mnt/sdb1/Yuya-iTunes/iTunes Media/Music
+	../
+0
+D/mnt/sdb1/Yuya-iTunes/iTunes Media
+	musics/
+9
+D/mnt/sdb1/Yuya-iTunes/iTunes Media/musics
+	Reset EP/
+13
+D/mnt/sdb1/Yuya-iTunes/iTunes Media
+	Music/
+4
+D/mnt/sdb1/Yuya-iTunes/iTunes Media/Music
+	Every Little Thing/
+14
+D/mnt/sdb1/Yuya-iTunes/iTunes Media
+	musics/
+9
+D/mnt/sdb1/Yuya-iTunes/iTunes Media/musics
+	Reset EP/
+13
+D/mnt/sdb1/Yuya-iTunes/iTunes Media
+	musics/
+9
+D/mnt/sdb1/Yuya-iTunes
+	iTunes Media/
+3
+D/mnt/sdb1
+	doji/
+20
+D/mnt/sdb1/doji
+	二人は遠慮がない/
+1
+D/mnt/sdb1/doji/二人は遠慮がない
+	001.jpg
+1
+D/mnt/sdb1/doji
+	20120226_07 (1).zip
+2
+D/mnt/sdb1
+	しゃんぐりら/
+27
+D/mnt/sdb1/しゃんぐりら
+	暁の護衛/
+1
+D/mnt/sdb1/しゃんぐりら/暁の護衛
+	暁の護衛.exe
+11
+D/mnt/sdb1/しゃんぐりら
+	暁の護衛/
+1
+D/mnt/sdb1
+	しゃんぐりら/
+27
 D
 
 # Command line history (oldest to newest):
@@ -590,6 +662,8 @@ D
 /down
 /cli
 /musi
+/burial
+/itunes
 
 # Prompt history (oldest to newest):
 pmassage_situation.mp3

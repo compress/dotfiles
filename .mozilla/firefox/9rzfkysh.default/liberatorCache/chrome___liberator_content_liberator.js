@@ -130,7 +130,7 @@ const Liberator = Module("liberator", {
     forceNewPrivateWindow: false,
 
     /** @property {string} The Liberator version string. */
-    version: "3.8.2 (created: 2014/02/13 23:52:43)", // these VERSION and DATE tokens are replaced by the Makefile
+    version: "3.8.3 (created: 2014/11/09 13:19:01)", // these VERSION and DATE tokens are replaced by the Makefile
 
     /**
      * @property {Object} The map of command-line options. These are
@@ -524,20 +524,36 @@ const Liberator = Module("liberator", {
         let fileMap = services.get("liberator:").FILE_MAP;
         let overlayMap = services.get("liberator:").OVERLAY_MAP;
 
+        // XXX: util.httpGet is very heavy on startup. (Fx32)
+        function httpGet(url) {
+            var channel = services.get("io").newChannelFromURI(makeURI(url));
+            try {
+                var stream = channel.open();
+            } catch (ex) {
+                return null;
+            }
+
+            var ps = new DOMParser;
+            var res = ps.parseFromStream(stream, "utf-8", stream.available(), "text/xml");
+            stream.close();
+            return {responseXML: res};
+        }
+
         // Left as an XPCOM instantiation so it can easilly be moved
         // into XPCOM code.
         function XSLTProcessor(sheet) {
             let xslt = Cc["@mozilla.org/document-transformer;1?type=xslt"].createInstance(Ci.nsIXSLTProcessor);
-            xslt.importStylesheet(util.httpGet(sheet).responseXML);
+            xslt.importStylesheet(httpGet(sheet).responseXML);
             return xslt;
         }
 
         // Find help and overlay files with the given name.
         function findHelpFile(file) {
             let result = [];
+
             for (let namespace of namespaces) {
                 let url = ["chrome://", namespace, "/locale/", file, ".xml"].join("");
-                let res = util.httpGet(url);
+                let res = httpGet(url);
                 if (res) {
                     if (res.responseXML.documentElement.localName == "document")
                         fileMap[file] = url;
@@ -577,7 +593,7 @@ const Liberator = Module("liberator", {
         const ps = new DOMParser;
         const encoder = Cc["@mozilla.org/layout/documentEncoder;1?type=text/xml"].getService(Ci.nsIDocumentEncoder);
         encoder.init(document, "text/xml", 0);
-        body = xml.map([con for ([,con] in Iterator(plugins.contexts))], function (context) {
+        var body = xml.map([con for ([,con] in Iterator(plugins.contexts))], function (context) {
             try { // debug
             var info = context.INFO;
             if (!info) return "";
@@ -611,7 +627,7 @@ const Liberator = Module("liberator", {
             </document>"],cooked: ["<document xmlns=", "                name=\"plugins\" title=", ">                <h1 tag=\"using-plugins\">Using Plugins</h1>                ", "            </document>"]}, [(NS), (config.name + " Plugins"), (body)]).toString();
         fileMap["plugins"] = function () ['text/xml;charset=UTF-8', help];
 
-        addTags("plugins", util.httpGet("liberator://help/plugins").responseXML);
+        addTags("plugins", httpGet("liberator://help/plugins").responseXML);
     },
 
     /**
@@ -1717,9 +1733,9 @@ const Liberator = Module("liberator", {
                     return void liberator.echoerr("No usage information for: " + args[0]);
 
                 if (args[0])
-                    var usage = template.genericOutput(config.name + " Usage", usage[args[0]]());
+                    usage = template.genericOutput(config.name + " Usage", usage[args[0]]());
                 else
-                    var usage = template.genericOutput(config.name + " Usage", xml({raw: ["", "<br/>", "<br/>", ""],cooked: ["", "<br/>", "<br/>", ""]}, [( usage["mappings"]() ), ( usage["commands"]() ), ( usage["options"]())]));
+                    usage = template.genericOutput(config.name + " Usage", xml({raw: ["", "<br/>", "<br/>", ""],cooked: ["", "<br/>", "<br/>", ""]}, [( usage["mappings"]() ), ( usage["commands"]() ), ( usage["options"]())]));
                 liberator.echo(usage, commandline.FORCE_MULTILINE);
             }, {
                 argCount: "?",

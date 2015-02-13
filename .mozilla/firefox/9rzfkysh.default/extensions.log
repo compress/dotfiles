@@ -1,0 +1,1 @@
+2015-02-13 23:31:45 ERROR addons.xpi: Attempted to load bootstrap scope from missing directory /home/compress/.mozilla/firefox/9rzfkysh.default/extensions/firefox-hotfix@mozilla.org.xpi at resource://gre/modules/XPIProvider.jsm:4192
