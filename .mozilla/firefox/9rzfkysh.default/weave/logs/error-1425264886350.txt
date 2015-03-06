@@ -1,0 +1,32 @@
+1425264881635	Sync.Service	INFO	Loading Weave 1.31.0
+1425264881678	Sync.Engine.Clients	DEBUG	Engine initialized
+1425264881688	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1425264881699	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1425264881737	Sync.Engine.Forms	DEBUG	Engine initialized
+1425264881755	Sync.Engine.History	DEBUG	Engine initialized
+1425264881762	Sync.Engine.Passwords	DEBUG	Engine initialized
+1425264881779	Sync.Engine.Prefs	DEBUG	Engine initialized
+1425264881786	Sync.Engine.Tabs	DEBUG	Engine initialized
+1425264881786	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1425264881801	Sync.Engine.Addons	DEBUG	Engine initialized
+1425264881803	Sync.Service	INFO	Mozilla/5.0 (X11; Linux i686; rv:29.0) Gecko/20100101 Firefox/29.0
+1425264881817	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1425264881820	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264881820	Sync.Service	DEBUG	Caching URLs under storage user base: https://phx-sync-4-1-3.services.mozilla.com/1.1/kdxiyhso7snp7nbwft5iva5txehmc6y3/
+1425264881821	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264881821	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1425264881822	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1425264881824	Sync.Tracker.History	INFO	Adding Places observer.
+1425264882102	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264882105	Sync.Tracker.AdblockPlus	WARN	Changed IDs file adblockplus contains non-object value.
+1425264882106	Sync.Tracker.AdblockPlus.private	WARN	Changed IDs file adblockplus.private contains non-object value.
+1425264882107	Sync.Engine.AdblockPlus	DEBUG	Engine initialized
+1425264882108	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264886331	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264886347	Sync.Service	DEBUG	User-Agent: Firefox/29.0.1 FxSync/1.31.0.20140515014513.
+1425264886347	Sync.Service	INFO	Starting sync at 2015-03-02 11:54:46
+1425264886347	Sync.Service	DEBUG	In sync: should login.
+1425264886348	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264886348	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1425264886349	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1425264886349	Sync.SyncScheduler	DEBUG	Next sync in 86400000 ms.

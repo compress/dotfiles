@@ -129,6 +129,9 @@ alias githubpush="git add . && git commit -m "first commit" && git push origin m
 alias ls="ls --color=auto"
 alias unzipall="~/sh/allunzip.sh"
 
+### PATH ###
+path=($HOME/bin(N-/) $HOME/bin/android-sdk/tools $HOME/bin/android-sdk/platforms $HOME/.gem/ruby/2.2.0/bin /usr/local/bin(N-/) $path)
+
 # cdコマンド実行後、lsを実行する
 #function cd() {
 #  builtin cd $@ && ls;
